@@ -1,0 +1,112 @@
+
+Gurobi 13.0.3 (mac64[arm]) logging started Tue Nov 17 20:50:13 2026
+
+Set parameter LogFile to value "outputs/futian_rho1.5_cf160_cm135_hub80_gap005_gurobi/round_018.log"
+Set parameter DisplayInterval to value 30
+Set parameter MIPGap to value 0.005
+Set parameter TimeLimit to value 600
+Gurobi Optimizer version 13.0.3 build v13.0.3rc0 (mac64[arm] - Darwin 24.5.0 24F74)
+
+CPU model: Apple M4
+Thread count: 10 physical cores, 10 logical processors, using up to 4 threads
+
+Non-default parameters:
+TimeLimit  600
+MIPGap  0.005
+DisplayInterval  30
+LogToConsole  0
+Threads  4
+
+Optimize a model with 7498 rows, 5233 columns and 132757 nonzeros (Max)
+Model fingerprint: 0x604b1f55
+Model has 225 linear objective coefficients
+Variable types: 228 continuous, 5005 integer (1260 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 3e+02]
+  Objective range  [8e-03, 2e+02]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 7e+04]
+
+User MIP start produced solution with objective 16799.7 (0.01s)
+User MIP start produced solution with objective 16799.7 (0.01s)
+Loaded user MIP start with objective 16799.7
+
+Presolve added 0 rows and 3 columns
+Presolve removed 32 rows and 0 columns
+Presolve time: 0.06s
+Presolved: 7466 rows, 5236 columns, 122553 nonzeros
+Variable types: 123 continuous, 5113 integer (1260 binary)
+
+Root relaxation: objective 2.107959e+04, 6826 iterations, 0.44 seconds (1.77 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 21079.5870    0  194 16799.6578 21079.5870  25.5%     -    0s
+H    0     0                    18074.578982 21079.5870  16.6%     -    0s
+H    0     0                    20130.212628 21079.5870  4.72%     -    0s
+H    0     0                    20170.017307 21079.5870  4.51%     -    0s
+H    0     0                    20322.335944 21079.5870  3.73%     -    0s
+H    0     0                    20322.389554 21079.5870  3.73%     -    0s
+H    0     0                    20331.684965 21079.5870  3.68%     -    0s
+H    0     0                    20342.146723 21079.5870  3.63%     -    1s
+H    0     0                    20345.499377 21079.5870  3.61%     -    1s
+H    0     0                    20360.235298 21079.5870  3.53%     -    1s
+H    0     0                    20527.342279 21079.5870  2.69%     -    2s
+     0     0 21078.9486    0  197 20527.3423 21078.9486  2.69%     -    2s
+H    0     0                    20561.250457 21078.9095  2.52%     -    4s
+H    0     0                    20580.498085 21075.0539  2.40%     -    5s
+H    0     0                    20580.556804 21075.0539  2.40%     -    5s
+H    0     0                    20580.707935 21075.0539  2.40%     -    5s
+H    0     0                    20582.871870 21075.0539  2.39%     -    5s
+H    0     0                    20591.372024 21075.0539  2.35%     -    5s
+H    0     0                    20593.535959 21075.0539  2.34%     -    5s
+H    0     0                    20605.177988 21075.0539  2.28%     -    5s
+     0     0 21075.0539    0  197 20605.1780 21075.0539  2.28%     -    5s
+     0     0 21075.0502    0  197 20605.1780 21075.0502  2.28%     -    5s
+     0     0 21075.0388    0  197 20605.1780 21075.0388  2.28%     -    5s
+     0     0 21074.9950    0  197 20605.1780 21074.9950  2.28%     -    5s
+     0     0 21074.9936    0  197 20605.1780 21074.9936  2.28%     -    5s
+     0     0 21074.9936    0  197 20605.1780 21074.9936  2.28%     -    5s
+     0     0 21074.9426    0  197 20605.1780 21074.9426  2.28%     -    5s
+     0     0 21074.9425    0  197 20605.1780 21074.9425  2.28%     -    5s
+     0     0 21074.9128    0  197 20605.1780 21074.9128  2.28%     -    6s
+     0     0 21074.9128    0  197 20605.1780 21074.9128  2.28%     -    6s
+     0     0 21074.9128    0  195 20605.1780 21074.9128  2.28%     -    6s
+     0     2 21074.9128    0  195 20605.1780 21074.9128  2.28%     -    6s
+H  316   377                    20665.094769 21074.9128  1.98%   120    7s
+H  415   447                    20702.927024 21074.9128  1.80%  97.0    8s
+H  429   447                    20704.383155 21074.9128  1.79%  94.3    8s
+*  974   867             191    20807.126064 21074.9128  1.29%  47.4    8s
+*  976   836             193    20808.933682 21074.9128  1.28%  47.3    8s
+H 1068   731                    20808.995034 21074.9128  1.28%  47.9   12s
+H 1069   695                    20817.707628 21074.9128  1.24%  47.9   13s
+H 1069   660                    20818.205093 21074.9128  1.23%  47.9   13s
+H 1069   627                    20820.572967 21074.9128  1.22%  47.9   13s
+H 1073   599                    20827.158823 21074.9128  1.19%  47.7   16s
+H 1366   750                    20828.533592 21074.5651  1.18%  81.7   24s
+H 1434   800                    20830.973816 21074.5651  1.17%  81.3   25s
+H 1454   760                    20836.348866 21074.5651  1.14%  80.8   25s
+H 1629   759                    20844.942111 21074.5651  1.10%  76.9   28s
+* 1930   894             137    20850.261497 21074.5651  1.08%  70.2   28s
+* 2079   835             199    20850.375052 21074.5651  1.08%  68.2   29s
+  2165   908 20955.9784   39  134 20850.3751 21074.5651  1.08%  72.7   30s
+H 2703  1161                    20860.240247 21074.5651  1.03%  68.9   31s
+H 2725   863                    20883.683606 21074.5651  0.91%  69.0   31s
+* 2949   905             235    20887.209187 21074.5651  0.90%  65.6   32s
+* 3830  1469             206    20894.139855 21026.7310  0.63%  62.6   34s
+* 6113  2514             187    20906.919396 21003.3822  0.46%  54.2   40s
+
+Cutting planes:
+  Gomory: 1
+  MIR: 95
+
+Explored 6376 nodes (343363 simplex iterations) in 40.16 seconds (177.64 work units)
+Thread count was 4 (of 10 available processors)
+
+Solution count 10: 20906.9 20894.1 20887.2 ... 20831
+
+Optimal solution found (tolerance 5.00e-03)
+Best objective 2.090691939582e+04, best bound 2.100338221740e+04, gap 0.4614%
+
+User-callback calls 25446, time in user-callback 0.02 sec

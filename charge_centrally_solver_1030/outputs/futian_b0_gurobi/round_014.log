@@ -1,0 +1,58 @@
+
+Gurobi 13.0.1 (mac64[arm]) logging started Fri Oct 30 20:37:03 2026
+
+Set parameter LogFile to value "outputs/futian_b0_gurobi/round_014.log"
+Set parameter DisplayInterval to value 30
+Set parameter TimeLimit to value 600
+Gurobi Optimizer version 13.0.1 build v13.0.1rc0 (mac64[arm] - Darwin 24.5.0 24F74)
+
+CPU model: Apple M4
+Thread count: 10 physical cores, 10 logical processors, using up to 10 threads
+
+Non-default parameters:
+TimeLimit  600
+DisplayInterval  30
+LogToConsole  0
+
+Optimize a model with 7018 rows, 5233 columns and 114547 nonzeros (Max)
+Model fingerprint: 0xe92e8742
+Model has 225 linear objective coefficients
+Variable types: 228 continuous, 5005 integer (1260 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 4e+02]
+  Objective range  [8e-03, 6e+01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+05]
+
+User MIP start produced solution with objective 39817 (0.01s)
+Loaded user MIP start with objective 39817
+
+Presolve removed 154 rows and 0 columns
+Presolve time: 0.10s
+Presolved: 6864 rows, 5233 columns, 102724 nonzeros
+Variable types: 123 continuous, 5110 integer (1260 binary)
+
+Root relaxation: objective 7.089822e+04, 3494 iterations, 0.17 seconds (0.48 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 70898.2241    0   19 39816.9730 70898.2241  78.1%     -    0s
+H    0     0                    70864.864236 70898.2241  0.05%     -    0s
+H    0     0                    70881.360631 70898.2241  0.02%     -    0s
+H    0     0                    70889.334287 70898.2241  0.01%     -    0s
+     0     0          -    0      70889.3343 70896.3179  0.01%     -    0s
+
+Cutting planes:
+  Gomory: 2
+  MIR: 15
+
+Explored 1 nodes (3543 simplex iterations) in 0.55 seconds (1.09 work units)
+Thread count was 10 (of 10 available processors)
+
+Solution count 4: 70889.3 70881.4 70864.9 39817 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 7.088933428730e+04, best bound 7.089631792389e+04, gap 0.0099%
+
+User-callback calls 556, time in user-callback 0.00 sec

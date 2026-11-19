@@ -1,0 +1,16 @@
+{
+  "objective": 68010.89209170704,
+  "bound": 68097.28467208591,
+  "mip_gap": 0.0012702756532347816,
+  "iterations": 52,
+  "stop_reason": "没有新的割，但主问题只是提前停止",
+  "status_name": "TIME_LIMIT",
+  "fixed_chargers": 287,
+  "mobile_chargers": 11,
+  "hub_count": 1,
+  "hub_indexes": [
+    3
+  ],
+  "dataset": "futian",
+  "shortage_penalty": 0.0
+}

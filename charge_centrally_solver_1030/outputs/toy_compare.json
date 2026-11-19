@@ -1,0 +1,44 @@
+{
+  "passed": true,
+  "instances": [
+    {
+      "name": "toy2",
+      "zones": 2,
+      "dense_full": 33.45,
+      "sparse_full": 33.45,
+      "cutting_plane": 33.45,
+      "sparse_minus_dense": 0.0,
+      "cg_minus_dense": 0.0,
+      "iterations": 3,
+      "status": "OPTIMAL",
+      "stop_reason": "没有新的割，主问题相对间隙已达到 Gurobi 接受的范围",
+      "passed": true
+    },
+    {
+      "name": "toy",
+      "zones": 3,
+      "dense_full": 856.1415439663219,
+      "sparse_full": 856.1415439663218,
+      "cutting_plane": 856.1415439663218,
+      "sparse_minus_dense": -1.1368683772161603e-13,
+      "cg_minus_dense": -1.1368683772161603e-13,
+      "iterations": 7,
+      "status": "OPTIMAL",
+      "stop_reason": "没有新的割，主问题相对间隙已达到 Gurobi 接受的范围",
+      "passed": true
+    },
+    {
+      "name": "synthetic_4zone",
+      "zones": 4,
+      "dense_full": -66.99999842541305,
+      "sparse_full": -66.99999867965491,
+      "cutting_plane": -67.0,
+      "sparse_minus_dense": -2.542418542361702e-07,
+      "cg_minus_dense": -1.5745869461625261e-06,
+      "iterations": 6,
+      "status": "OPTIMAL",
+      "stop_reason": "没有新的割，主问题相对间隙已达到 Gurobi 接受的范围",
+      "passed": true
+    }
+  ]
+}

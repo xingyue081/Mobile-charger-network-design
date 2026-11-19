@@ -1,0 +1,99 @@
+{
+  "data": "/Users/xingyueyi/Desktop/CG_solver/futian",
+  "artifact": "/Users/xingyueyi/Desktop/CG_solver/futian/futian_parameters.npz",
+  "taz_ids": [
+    202,
+    204,
+    205,
+    206,
+    208,
+    212,
+    213,
+    214,
+    215,
+    216,
+    217,
+    223,
+    224,
+    225,
+    226,
+    227,
+    235,
+    1061,
+    1062,
+    1099,
+    1100,
+    1102,
+    1104,
+    1106,
+    1107,
+    1109,
+    1110,
+    1111,
+    1112,
+    1113,
+    1114,
+    1115,
+    1168,
+    1172,
+    1173
+  ],
+  "in_support_counts": {
+    "workday": 82,
+    "weekend": 28,
+    "holiday": 10
+  },
+  "q_l": {
+    "workday": 0.680327868852459,
+    "weekend": 0.22950819672131148,
+    "holiday": 0.09016393442622951
+  },
+  "epsilon_l": {
+    "workday": 284.26873062889507,
+    "weekend": 281.75413436631277,
+    "holiday": 204.32489470559034
+  },
+  "radius": 7.938691740153008,
+  "local_g": 0.1,
+  "rho": 2.0,
+  "penalty": 2.0,
+  "tau": 190.0,
+  "kappa": 160.0,
+  "fixed_cost": 41.0,
+  "mobile_cost": 45.0,
+  "gamma": 0.001,
+  "business_overrides": {
+    "shortage_penalty": 2.0
+  },
+  "m_bar": 1050.0,
+  "transition_probability": {
+    "holiday->workday": 0.01652892561983471,
+    "weekend->workday": 0.11570247933884298,
+    "workday->holiday": 0.024793388429752067,
+    "workday->weekend": 0.11570247933884298
+  }
+}
+Set parameter LicenseID to value 2764505
+{"iteration": 1, "master_status": "OPTIMAL", "objective": 66448.89756670636, "bound": 66455.54195559993, "elapsed_seconds": 2751.906426957983, "master_seconds": 2745.973102092743, "node_count": 4611312, "stalled": false, "master_mip_gap_target": 0.0001}
+{"iteration": 2, "master_status": "OPTIMAL", "objective": 66448.90472531688, "bound": 66455.54836927171, "elapsed_seconds": 5363.499143708032, "master_seconds": 2587.7599699497223, "node_count": 3488786, "stalled": false, "master_mip_gap_target": 0.0001}
+{"iteration": 3, "master_status": "OPTIMAL", "objective": 66448.51871313524, "bound": 66455.16303378418, "elapsed_seconds": 8148.330453417031, "master_seconds": 2775.6720521450043, "node_count": 3927375, "stalled": false, "master_mip_gap_target": 0.0001}
+{"iteration": 4, "master_status": "OPTIMAL", "objective": 66448.5383074419, "bound": 66455.18206486487, "elapsed_seconds": 10790.034162416996, "master_seconds": 2629.385404109955, "node_count": 3919714, "stalled": false, "master_mip_gap_target": 0.0001}
+{"iteration": 5, "master_status": "OPTIMAL", "objective": 66448.4651815747, "bound": 66455.10948659775, "elapsed_seconds": 13234.617741417023, "master_seconds": 2437.691300868988, "node_count": 3916991, "stalled": false, "master_mip_gap_target": 0.0001}
+{"iteration": 6, "master_status": "OPTIMAL", "objective": 66448.45977319381, "bound": 66455.103568766, "elapsed_seconds": 15550.030818417028, "master_seconds": 2307.356631040573, "node_count": 3769959, "stalled": false, "master_mip_gap_target": 0.0001}
+{"iteration": 7, "master_status": "OPTIMAL", "objective": 66448.32945963876, "bound": 66454.97354423533, "elapsed_seconds": 18128.033062208036, "master_seconds": 2571.711663007736, "node_count": 4455852, "stalled": false, "master_mip_gap_target": 0.0001}
+{"iteration": 8, "master_status": "OPTIMAL", "objective": 66448.08273707537, "bound": 66454.72617653402, "elapsed_seconds": 20579.064872874995, "master_seconds": 2440.237293958664, "node_count": 4291190, "stalled": false, "master_mip_gap_target": 0.0001}
+{"iteration": 9, "master_status": "OPTIMAL", "objective": 66447.9295094869, "bound": 66454.57339903373, "elapsed_seconds": 23083.714605416986, "master_seconds": 2496.2300300598145, "node_count": 4500452, "stalled": false, "master_mip_gap_target": 0.0001}
+{"iteration": 10, "master_status": "OPTIMAL", "objective": 66448.35762717579, "bound": 66455.0013625215, "elapsed_seconds": 25532.903162000002, "master_seconds": 2426.191629886627, "node_count": 4366394, "stalled": false, "master_mip_gap_target": 0.0001}
+{"iteration": 11, "master_status": "OPTIMAL", "objective": 66448.64157459655, "bound": 66455.28528576287, "elapsed_seconds": 27730.589918958023, "master_seconds": 2186.561107158661, "node_count": 3728167, "stalled": false, "master_mip_gap_target": 0.0001}
+{"iteration": 12, "master_status": "OPTIMAL", "objective": 66448.51631025226, "bound": 66455.15977510356, "elapsed_seconds": 30039.11827287503, "master_seconds": 2300.3549201488495, "node_count": 4050618, "stalled": false, "master_mip_gap_target": 0.0001}
+{"iteration": 13, "master_status": "OPTIMAL", "objective": 66448.18418847937, "bound": 66454.82866361052, "elapsed_seconds": 32650.407298707985, "master_seconds": 2599.130208015442, "node_count": 4056512, "stalled": false, "master_mip_gap_target": 0.0001}
+{
+  "status": "CONVERGED",
+  "reason": "ALL_SEPARATIONS_WITHIN_TOLERANCE",
+  "iterations": 13,
+  "objective": 66448.18418847937,
+  "bound": 66454.82866361052,
+  "elapsed_seconds": 32668.80762829201,
+  "pattern_count": 1972,
+  "output": "/Users/xingyueyi/Desktop/CG_solver/charge_locally_solver/outputs/futian_b2_g0.1_adaptgap_cert.json"
+}

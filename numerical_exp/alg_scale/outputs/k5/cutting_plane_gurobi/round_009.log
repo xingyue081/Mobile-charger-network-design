@@ -1,0 +1,57 @@
+
+Gurobi 13.0.3 (mac64[arm]) logging started Sat Nov  7 15:56:03 2026
+
+Set parameter LogFile to value "/Users/xingyueyi/Desktop/CG_solver/numerical_exp/alg_scale/outputs/k5/cutting_plane_gurobi/round_009.log"
+Set parameter DisplayInterval to value 30
+Set parameter MIPGap to value 0.0001
+Set parameter TimeLimit to value 1800
+Gurobi Optimizer version 13.0.3 build v13.0.3rc0 (mac64[arm] - Darwin 24.5.0 24F74)
+
+CPU model: Apple M4
+Thread count: 10 physical cores, 10 logical processors, using up to 4 threads
+
+Non-default parameters:
+TimeLimit  1800
+DisplayInterval  30
+LogToConsole  0
+Threads  4
+
+Optimize a model with 966 rows, 251 columns and 6321 nonzeros (Max)
+Model fingerprint: 0xaeca4699
+Model has 133 linear objective coefficients
+Variable types: 136 continuous, 115 integer (30 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 4e+02]
+  Objective range  [8e-03, 5e+01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [2e-13, 1e+04]
+
+User MIP start produced solution with objective 6563.33 (0.00s)
+Loaded user MIP start with objective 6563.33
+
+Presolve removed 123 rows and 0 columns
+Presolve time: 0.00s
+Presolved: 843 rows, 251 columns, 5380 nonzeros
+Variable types: 121 continuous, 130 integer (30 binary)
+
+Root relaxation: objective 6.575051e+03, 231 iterations, 0.00 seconds (0.01 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 6575.05115    0    5 6563.33009 6575.05115  0.18%     -    0s
+     0     0          -    0      6563.33009 6563.78729  0.01%     -    0s
+
+Cutting planes:
+  Gomory: 1
+  MIR: 43
+
+Explored 1 nodes (255 simplex iterations) in 0.01 seconds (0.03 work units)
+Thread count was 4 (of 10 available processors)
+
+Solution count 1: 6563.33 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 6.563330087954e+03, best bound 6.563787287077e+03, gap 0.0070%
+
+User-callback calls 276, time in user-callback 0.00 sec

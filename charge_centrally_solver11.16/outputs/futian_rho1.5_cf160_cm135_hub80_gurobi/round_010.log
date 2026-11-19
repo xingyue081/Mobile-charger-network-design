@@ -1,0 +1,55 @@
+
+Gurobi 13.0.3 (mac64[arm]) logging started Mon Nov 16 19:55:31 2026
+
+Set parameter LogFile to value "outputs/futian_rho1.5_cf160_cm135_hub80_gurobi/round_010.log"
+Set parameter DisplayInterval to value 30
+Set parameter MIPGap to value 0.001
+Set parameter TimeLimit to value 600
+Gurobi Optimizer version 13.0.3 build v13.0.3rc0 (mac64[arm] - Darwin 24.5.0 24F74)
+
+CPU model: Apple M4
+Thread count: 10 physical cores, 10 logical processors, using up to 4 threads
+
+Non-default parameters:
+TimeLimit  600
+MIPGap  0.001
+DisplayInterval  30
+LogToConsole  0
+Threads  4
+
+Optimize a model with 6538 rows, 5233 columns and 103125 nonzeros (Max)
+Model fingerprint: 0x86ecbed8
+Model has 225 linear objective coefficients
+Variable types: 228 continuous, 5005 integer (1260 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 3e+02]
+  Objective range  [8e-03, 2e+02]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [4e-13, 7e+04]
+
+User MIP start produced solution with objective -20028.9 (0.01s)
+Loaded user MIP start with objective -20028.9
+
+Presolve removed 173 rows and 37 columns
+Presolve time: 0.06s
+Presolved: 6365 rows, 5196 columns, 30657 nonzeros
+Variable types: 123 continuous, 5073 integer (1260 binary)
+
+Root relaxation: objective 2.253086e+04, 1518 iterations, 0.02 seconds (0.05 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 22530.8587    0   18 -20028.884 22530.8587   212%     -    0s
+H    0     0                    22493.846771 22530.8587  0.16%     -    0s
+H    0     0                    22530.508930 22530.8587  0.00%     -    0s
+
+Explored 1 nodes (1975 simplex iterations) in 0.12 seconds (0.26 work units)
+Thread count was 4 (of 10 available processors)
+
+Solution count 3: 22530.5 22493.8 -20028.9 
+
+Optimal solution found (tolerance 1.00e-03)
+Best objective 2.253050892963e+04, best bound 2.253085873785e+04, gap 0.0016%
+
+User-callback calls 378, time in user-callback 0.00 sec

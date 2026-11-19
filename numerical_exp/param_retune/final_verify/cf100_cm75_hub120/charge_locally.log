@@ -1,0 +1,611 @@
+{
+  "data": "/Users/xingyueyi/Desktop/CG_solver/futian",
+  "artifact": "/Users/xingyueyi/Desktop/CG_solver/futian/futian_parameters.npz",
+  "taz_ids": [
+    202,
+    204,
+    205,
+    206,
+    208,
+    212,
+    213,
+    214,
+    215,
+    216,
+    217,
+    223,
+    224,
+    225,
+    226,
+    227,
+    235,
+    1061,
+    1062,
+    1099,
+    1100,
+    1102,
+    1104,
+    1106,
+    1107,
+    1109,
+    1110,
+    1111,
+    1112,
+    1113,
+    1114,
+    1115,
+    1168,
+    1172,
+    1173
+  ],
+  "in_support_counts": {
+    "workday": 82,
+    "weekend": 28,
+    "holiday": 10
+  },
+  "q_l": {
+    "workday": 0.680327868852459,
+    "weekend": 0.22950819672131148,
+    "holiday": 0.09016393442622951
+  },
+  "epsilon_l": {
+    "workday": 284.26873062889507,
+    "weekend": 281.75413436631277,
+    "holiday": 204.32489470559034
+  },
+  "radius": 7.938691740153008,
+  "local_g": 0.25,
+  "rho": 2.0,
+  "penalty": 0.0,
+  "tau": 190.0,
+  "kappa": 160.0,
+  "fixed_cost": 100.0,
+  "mobile_cost": 75.0,
+  "gamma": 0.001,
+  "business_overrides": {
+    "rho": 2.0,
+    "shortage_penalty": 0.0,
+    "fixed_unit_cost": 100.0,
+    "mobile_unit_cost": 75.0,
+    "transport_cost_per_distance": 0.001
+  },
+  "m_bar": 1050.0,
+  "transition_probability": {
+    "holiday->workday": 0.01652892561983471,
+    "weekend->workday": 0.11570247933884298,
+    "workday->holiday": 0.024793388429752067,
+    "workday->weekend": 0.11570247933884298
+  }
+}
+Set parameter LicenseID to value 2764505
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+{"iteration": 1, "master_status": "OPTIMAL", "objective": 81358.11457215923, "bound": 81358.11457216152, "elapsed_seconds": 2.27490016608499, "master_seconds": 0.015778064727783203, "node_count": 0, "stalled": false, "master_mip_gap_target": 0.001}
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+{"iteration": 2, "master_status": "OPTIMAL", "objective": 75910.58402018833, "bound": 75910.58402018833, "elapsed_seconds": 2.7490298331249505, "master_seconds": 0.049859046936035156, "node_count": 1, "stalled": false, "master_mip_gap_target": 0.001}
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+{"iteration": 3, "master_status": "OPTIMAL", "objective": 69693.65745959968, "bound": 69693.65745959968, "elapsed_seconds": 3.1574237081222236, "master_seconds": 0.028071880340576172, "node_count": 1, "stalled": false, "master_mip_gap_target": 0.001}
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+{"iteration": 4, "master_status": "OPTIMAL", "objective": 63468.86559542533, "bound": 63468.86559542533, "elapsed_seconds": 3.6082094160374254, "master_seconds": 0.049809932708740234, "node_count": 1, "stalled": false, "master_mip_gap_target": 0.001}
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+{"iteration": 5, "master_status": "OPTIMAL", "objective": 57610.832140881204, "bound": 57611.2501052197, "elapsed_seconds": 3.9521790000144392, "master_seconds": 0.06572890281677246, "node_count": 1, "stalled": false, "master_mip_gap_target": 0.001}
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+{"iteration": 6, "master_status": "OPTIMAL", "objective": 57473.06391946554, "bound": 57473.469600436125, "elapsed_seconds": 4.377780582988635, "master_seconds": 0.041993141174316406, "node_count": 1, "stalled": false, "master_mip_gap_target": 0.001}
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+{"iteration": 7, "master_status": "OPTIMAL", "objective": 57095.55409542744, "bound": 57096.15765795217, "elapsed_seconds": 4.816194000188261, "master_seconds": 0.0343022346496582, "node_count": 1, "stalled": false, "master_mip_gap_target": 0.001}
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+{"iteration": 8, "master_status": "OPTIMAL", "objective": 57056.15399226834, "bound": 57056.80224453521, "elapsed_seconds": 5.242439500056207, "master_seconds": 0.03105902671813965, "node_count": 1, "stalled": false, "master_mip_gap_target": 0.001}
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+{"iteration": 9, "master_status": "OPTIMAL", "objective": 57055.13219395614, "bound": 57056.80224453521, "elapsed_seconds": 5.65502587496303, "master_seconds": 0.048828125, "node_count": 1, "stalled": false, "master_mip_gap_target": 0.001}
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+{"iteration": 10, "master_status": "OPTIMAL", "objective": 57005.46958544465, "bound": 57005.558664289165, "elapsed_seconds": 6.039275540970266, "master_seconds": 0.03669404983520508, "node_count": 1, "stalled": false, "master_mip_gap_target": 0.001}
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+{"iteration": 11, "master_status": "OPTIMAL", "objective": 57005.46958544465, "bound": 57005.55866428917, "elapsed_seconds": 6.393705249996856, "master_seconds": 0.028580904006958008, "node_count": 1, "stalled": false, "master_mip_gap_target": 0.001}
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+{"iteration": 12, "master_status": "OPTIMAL", "objective": 56992.90399791414, "bound": 57005.55866428917, "elapsed_seconds": 6.639632000122219, "master_seconds": 0.02920222282409668, "node_count": 1, "stalled": true, "master_mip_gap_target": 0.001}
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+{"iteration": 13, "master_status": "OPTIMAL", "objective": 57005.46958544465, "bound": 57005.55866428919, "elapsed_seconds": 6.8992445829790086, "master_seconds": 0.02929401397705078, "node_count": 1, "stalled": false, "master_mip_gap_target": 0.001}
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+{"iteration": 14, "master_status": "OPTIMAL", "objective": 56982.154972632605, "bound": 57005.55866428918, "elapsed_seconds": 7.1777398330159485, "master_seconds": 0.029980897903442383, "node_count": 1, "stalled": false, "master_mip_gap_target": 0.001}
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+{"iteration": 15, "master_status": "OPTIMAL", "objective": 56978.42579894768, "bound": 57005.55866428919, "elapsed_seconds": 7.421316958032548, "master_seconds": 0.031553030014038086, "node_count": 1, "stalled": false, "master_mip_gap_target": 0.001}
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+{"iteration": 16, "master_status": "OPTIMAL", "objective": 56974.52840591925, "bound": 57005.55866428917, "elapsed_seconds": 7.6728396660182625, "master_seconds": 0.03105020523071289, "node_count": 1, "stalled": false, "master_mip_gap_target": 0.001}
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+{"iteration": 17, "master_status": "OPTIMAL", "objective": 56976.72810962825, "bound": 57005.55866428917, "elapsed_seconds": 7.832598458044231, "master_seconds": 0.03469109535217285, "node_count": 1, "stalled": false, "master_mip_gap_target": 0.001}
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+Set parameter Threads to value 2
+{"iteration": 18, "master_status": "OPTIMAL", "objective": 56981.54055304604, "bound": 57005.55866428919, "elapsed_seconds": 7.996763875009492, "master_seconds": 0.03813505172729492, "node_count": 1, "stalled": false, "master_mip_gap_target": 0.001}

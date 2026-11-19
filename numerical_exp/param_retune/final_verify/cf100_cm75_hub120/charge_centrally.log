@@ -1,0 +1,23 @@
+Traceback (most recent call last):
+  File "/Users/xingyueyi/Desktop/CG_solver/charge_centrally_solver/main.py", line 704, in <module>
+    model_data = load_model_data(args.instance, business_overrides, args.data_dir)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/xingyueyi/Desktop/CG_solver/charge_centrally_solver/main.py", line 248, in load_model_data
+    model_data = load_futian_data(business_overrides, data_dir)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/xingyueyi/Desktop/CG_solver/charge_centrally_solver/main.py", line 202, in load_futian_data
+    business, business_overrides, business_path = load_shared_business(root, overrides)
+                                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/xingyueyi/Desktop/CG_solver/charge_centrally_solver/main.py", line 143, in load_shared_business
+    stored = json.loads(path.read_text(encoding="utf-8"))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.11/3.11.13/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.11/3.11.13/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.11/3.11.13/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)

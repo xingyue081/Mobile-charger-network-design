@@ -1,0 +1,53 @@
+
+Gurobi 13.0.1 (mac64[arm]) logging started Fri Oct 30 18:54:53 2026
+
+Set parameter LogFile to value "outputs/futian_b2_gurobi/round_003.log"
+Set parameter DisplayInterval to value 30
+Set parameter TimeLimit to value 600
+Gurobi Optimizer version 13.0.1 build v13.0.1rc0 (mac64[arm] - Darwin 24.5.0 24F74)
+
+CPU model: Apple M4
+Thread count: 10 physical cores, 10 logical processors, using up to 10 threads
+
+Non-default parameters:
+TimeLimit  600
+DisplayInterval  30
+LogToConsole  0
+
+Optimize a model with 5698 rows, 5233 columns and 46983 nonzeros (Max)
+Model fingerprint: 0x4188e406
+Model has 225 linear objective coefficients
+Variable types: 228 continuous, 5005 integer (1260 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 8e+02]
+  Objective range  [8e-03, 6e+01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+05]
+
+User MIP start produced solution with objective -111318 (0.00s)
+Loaded user MIP start with objective -111318
+
+Presolve removed 131 rows and 130 columns
+Presolve time: 0.02s
+Presolved: 5567 rows, 5103 columns, 24055 nonzeros
+Found heuristic solution: objective -100179.9792
+Variable types: 123 continuous, 4980 integer (1260 binary)
+
+Root relaxation: objective 6.879476e+04, 550 iterations, 0.01 seconds (0.02 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 68794.7621    0    1 -100179.98 68794.7621   169%     -    0s
+H    0     0                    68781.310200 68794.7621  0.02%     -    0s
+H    0     0                    68793.722979 68794.7621  0.00%     -    0s
+
+Explored 1 nodes (550 simplex iterations) in 0.04 seconds (0.10 work units)
+Thread count was 10 (of 10 available processors)
+
+Solution count 3: 68793.7 -100180 -111318 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 6.879372297880e+04, best bound 6.879476209968e+04, gap 0.0015%
+
+User-callback calls 330, time in user-callback 0.00 sec

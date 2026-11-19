@@ -1,0 +1,66 @@
+
+Gurobi 13.0.3 (mac64[arm]) logging started Tue Nov  3 18:44:22 2026
+
+Set parameter LogFile to value "/Users/xingyueyi/Desktop/CG_solver/numerical_exp/exp_futian_alpha/outputs/g0.25_hub50/alpha_0.1/charge_centrally_gurobi/round_047.log"
+Set parameter DisplayInterval to value 30
+Set parameter MIPGap to value 0.001
+Set parameter TimeLimit to value 600
+Gurobi Optimizer version 13.0.3 build v13.0.3rc0 (mac64[arm] - Darwin 24.5.0 24F74)
+
+CPU model: Apple M4
+Thread count: 10 physical cores, 10 logical processors, using up to 4 threads
+
+Non-default parameters:
+TimeLimit  600
+MIPGap  0.001
+DisplayInterval  30
+LogToConsole  0
+Threads  4
+
+Optimize a model with 10069 rows, 5231 columns and 175753 nonzeros (Max)
+Model fingerprint: 0x569fd5a5
+Model has 223 linear objective coefficients
+Variable types: 226 continuous, 5005 integer (1260 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 4e+02]
+  Objective range  [8e-03, 5e+01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [5e-13, 1e+05]
+
+User MIP start produced solution with objective 68274.7 (0.02s)
+Loaded user MIP start with objective 68274.7
+
+Presolve added 0 rows and 3 columns
+Presolve removed 32 rows and 0 columns
+Presolve time: 0.12s
+Presolved: 10037 rows, 5234 columns, 163291 nonzeros
+Variable types: 121 continuous, 5113 integer (1260 binary)
+
+Root relaxation: objective 6.840424e+04, 5137 iterations, 0.55 seconds (1.17 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 68404.2425    0   64 68274.7468 68404.2425  0.19%     -    0s
+H    0     0                    68275.241974 68404.2425  0.19%     -    1s
+H    0     0                    68284.927033 68404.2425  0.17%     -    1s
+H    0     0                    68289.713150 68404.2425  0.17%     -    1s
+H    0     0                    68304.939519 68404.2425  0.15%     -    2s
+H    0     0                    68305.247905 68404.2425  0.14%     -    2s
+H    0     0                    68305.410878 68404.2425  0.14%     -    3s
+H    0     0                    68308.520321 68404.2421  0.14%     -    3s
+     0     0          -    0      68308.5203 68376.7481  0.10%     -    3s
+
+Cutting planes:
+  Gomory: 9
+  MIR: 139
+
+Explored 1 nodes (5282 simplex iterations) in 3.78 seconds (4.84 work units)
+Thread count was 4 (of 10 available processors)
+
+Solution count 7: 68308.5 68305.4 68304.9 ... 68274.7
+
+Optimal solution found (tolerance 1.00e-03)
+Best objective 6.830852032111e+04, best bound 6.837674809596e+04, gap 0.0999%
+
+User-callback calls 1494, time in user-callback 0.00 sec

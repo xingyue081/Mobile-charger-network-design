@@ -1,0 +1,19 @@
+已载入 futian: 区域 (202, 204, 205, 206, 208, 212, 213, 214, 215, 216, 217, 223, 224, 225, 226, 227, 235, 1061, 1062, 1099, 1100, 1102, 1104, 1106, 1107, 1109, 1110, 1111, 1112, 1113, 1114, 1115, 1168, 1172, 1173)，support 内样本 {'workday': 82, 'weekend': 28, 'holiday': 10}
+本次覆盖的业务常数: {'shortage_penalty': 0.0}
+Set parameter LicenseID to value 2764505
+已恢复 400 条割
+已恢复 800 条割
+已恢复 1200 条割
+已恢复 1600 条割
+已恢复 2000 条割
+已恢复 2400 条割
+已恢复 2800 条割
+已恢复 3200 条割
+已恢复 3600 条割
+已恢复 4000 条割
+已恢复 4400 条割
+已恢复 4800 条割
+日志中的割已恢复，共 4940 条
+Set parameter OutputFlag to value 1
+Set parameter LogToConsole to value 0
+已写入 /Users/xingyueyi/Desktop/CG_solver/numerical_exp/exp1/inputs/futian_charge_centrally_b0_plan.json: obj=68010.9 fixed=285 mobile=12 hubs=[3]

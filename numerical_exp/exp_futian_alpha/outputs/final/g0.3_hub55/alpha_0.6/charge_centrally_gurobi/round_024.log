@@ -1,0 +1,60 @@
+
+Gurobi 13.0.3 (mac64[arm]) logging started Sun Nov  1 18:42:46 2026
+
+Set parameter LogFile to value "/Users/xingyueyi/Desktop/CG_solver/numerical_exp/exp_futian_alpha/outputs/final/g0.3_hub55/alpha_0.6/charge_centrally_gurobi/round_024.log"
+Set parameter DisplayInterval to value 30
+Set parameter MIPGap to value 0.001
+Set parameter TimeLimit to value 600
+Gurobi Optimizer version 13.0.3 build v13.0.3rc0 (mac64[arm] - Darwin 24.5.0 24F74)
+
+CPU model: Apple M4
+Thread count: 10 physical cores, 10 logical processors, using up to 4 threads
+
+Non-default parameters:
+TimeLimit  600
+MIPGap  0.001
+DisplayInterval  30
+LogToConsole  0
+Threads  4
+
+Optimize a model with 8211 rows, 5233 columns and 150077 nonzeros (Max)
+Model fingerprint: 0x37f28214
+Model has 225 linear objective coefficients
+Variable types: 228 continuous, 5005 integer (1260 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 4e+02]
+  Objective range  [8e-03, 6e+01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+05]
+
+User MIP start produced solution with objective 65213.2 (0.01s)
+Loaded user MIP start with objective 65213.2
+
+Presolve added 0 rows and 3 columns
+Presolve removed 32 rows and 0 columns
+Presolve time: 0.08s
+Presolved: 8179 rows, 5236 columns, 139119 nonzeros
+Variable types: 123 continuous, 5113 integer (1260 binary)
+
+Root relaxation: objective 6.965734e+04, 2600 iterations, 0.19 seconds (0.75 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 69657.3360    0   57 65213.2348 69657.3360  6.81%     -    0s
+H    0     0                    69455.785714 69657.3360  0.29%     -    0s
+H    0     0                    69534.599166 69657.3360  0.18%     -    0s
+H    0     0                    69544.697098 69657.3360  0.16%     -    0s
+H    0     0                    69566.550431 69657.3360  0.13%     -    0s
+H    0     0                    69571.369963 69657.3360  0.12%     -    0s
+H    0     0                    69606.015646 69657.3360  0.07%     -    0s
+
+Explored 1 nodes (2600 simplex iterations) in 0.86 seconds (1.88 work units)
+Thread count was 4 (of 10 available processors)
+
+Solution count 7: 69606 69571.4 69566.6 ... 65213.2
+
+Optimal solution found (tolerance 1.00e-03)
+Best objective 6.960601564595e+04, best bound 6.965733597008e+04, gap 0.0737%
+
+User-callback calls 570, time in user-callback 0.00 sec

@@ -1,0 +1,27 @@
+probe grid: 210,170,240 200,165,180 200,160,200 190,155,200
+fixed_seconds=1200 cent_seconds=2400 gap=0.01
+===== START cf210_cm170_hub240 2026-11-19 10:54:13 =====
+RESTART 2026-11-19 13:33:53
+probe grid: 210,170,240 200,165,180 200,160,200 190,155,200
+fixed_seconds=1200 cent_seconds=2400 gap=0.01
+===== START cf210_cm170_hub240 2026-11-19 13:33:53 =====
+RESTART2 2026-11-19 13:55:23
+probe grid: 210,170,240 200,165,180 200,160,200 190,155,200
+fixed_seconds=1200 cent_seconds=2400 gap=0.01
+===== START cf210_cm170_hub240 2026-11-19 13:55:23 =====
+{"tag": "cf210_cm170_hub240", "cf": 210.0, "cm": 170.0, "hub": 240.0, "fixed_rc": 0, "cent_rc": 0, "fixed_obj": 14228.96652421978, "fixed_status": "NOT_CONVERGED", "fixed_stop": "达到总时间上限", "fixed_n": 304, "cent_obj_lb": 10589.376887733844, "cent_obj_ub": 15351.955308766444, "cent_gap": 0.44975058226035103, "cent_n": 269, "cent_m": 30, "cent_hubs": 1, "stop_reason": "达到总时间上限", "lift_vs_fixed_using_cent_lb": -0.25578734972008144, "lift_vs_fixed_using_cent_ub": 0.07892272306883094}
+cf210_cm170_hub240: fixed=14229.0 cent_lb=10589.4 lift_lb=-25.58% lift_ub=7.89% n=269 m=30 hubs=1 gap=0.44975058226035103
+===== END cf210_cm170_hub240 2026-11-19 14:55:22 fixed_rc=0 cent_rc=0 =====
+===== START cf200_cm165_hub180 2026-11-19 14:55:22 =====
+{"tag": "cf200_cm165_hub180", "cf": 200.0, "cm": 165.0, "hub": 180.0, "fixed_rc": 1, "cent_rc": 0, "fixed_error": "missing_json", "cent_obj_lb": 13890.150869114674, "cent_obj_ub": 17984.434919835305, "cent_gap": 0.2947616688472723, "cent_n": 274, "cent_m": 30, "cent_hubs": 1, "stop_reason": "达到总时间上限"}
+cf200_cm165_hub180: incomplete fixed_rc=1 cent_rc=0
+===== END cf200_cm165_hub180 2026-11-19 15:55:26 fixed_rc=1 cent_rc=0 =====
+===== START cf200_cm160_hub200 2026-11-19 15:55:26 =====
+{"tag": "cf200_cm160_hub200", "cf": 200.0, "cm": 160.0, "hub": 200.0, "fixed_rc": 1, "cent_rc": 0, "fixed_error": "missing_json", "cent_obj_lb": 13794.053528690536, "cent_obj_ub": 18211.247478888577, "cent_gap": 0.3202245040597116, "cent_n": 247, "cent_m": 60, "cent_hubs": 2, "stop_reason": "达到总时间上限"}
+cf200_cm160_hub200: incomplete fixed_rc=1 cent_rc=0
+===== END cf200_cm160_hub200 2026-11-19 16:55:30 fixed_rc=1 cent_rc=0 =====
+===== START cf190_cm155_hub200 2026-11-19 16:55:30 =====
+{"tag": "cf190_cm155_hub200", "cf": 190.0, "cm": 155.0, "hub": 200.0, "fixed_rc": 0, "cent_rc": 0, "fixed_obj": 24592.099617318443, "fixed_status": "NOT_CONVERGED", "fixed_stop": "达到总时间上限", "fixed_n": 292, "cent_obj_lb": 17346.340379578207, "cent_obj_ub": 20772.919259693033, "cent_gap": 0.19753900852475645, "cent_n": 272, "cent_m": 30, "cent_hubs": 1, "stop_reason": "达到总时间上限", "lift_vs_fixed_using_cent_lb": -0.29463768244650285, "lift_vs_fixed_using_cent_ub": -0.15530110958626064}
+cf190_cm155_hub200: fixed=24592.1 cent_lb=17346.3 lift_lb=-29.46% lift_ub=-15.53% n=272 m=30 hubs=1 gap=0.19753900852475645
+===== END cf190_cm155_hub200 2026-11-19 17:56:20 fixed_rc=0 cent_rc=0 =====
+ALL PROBES DONE 2026-11-19 17:56:20

@@ -1,0 +1,63 @@
+{
+  "alpha": 1.0,
+  "source": "/Users/xingyueyi/Desktop/CG_solver/futian/futian_parameters.npz",
+  "common_shift_kwh": {
+    "workday": 53.259193403987624,
+    "weekend": -109.20606124868641,
+    "holiday": -123.8857579607047
+  },
+  "original_counts": {
+    "workday": 82,
+    "weekend": 28,
+    "holiday": 10
+  },
+  "kept_counts": {
+    "workday": 82,
+    "weekend": 28,
+    "holiday": 10
+  },
+  "dropped_days": [],
+  "clipped_negative_demand": {
+    "workday": {
+      "entries": 0,
+      "sum_kwh": 0.0,
+      "min_kwh": 0.0
+    },
+    "weekend": {
+      "entries": 0,
+      "sum_kwh": 0.0,
+      "min_kwh": 0.0
+    },
+    "holiday": {
+      "entries": 0,
+      "sum_kwh": 0.0,
+      "min_kwh": 0.0
+    }
+  },
+  "sample_shift_max_abs": {
+    "workday": 0.0,
+    "weekend": 0.0,
+    "holiday": 0.0
+  },
+  "margins_before_dropping_days": {
+    "max_abs_date_type_total_error": 0.0,
+    "max_abs_zone_mean_error": 0.0
+  },
+  "margins_after_dropping_days": {
+    "max_abs_date_type_total_error": 0.0,
+    "max_abs_zone_mean_error": 0.0
+  },
+  "unchanged": [
+    "mu",
+    "Sigma",
+    "Sigma_inv",
+    "r",
+    "r_squared",
+    "epsilon_l",
+    "q_l",
+    "distance",
+    "n_bar",
+    "taz_ids",
+    "business.json"
+  ]
+}

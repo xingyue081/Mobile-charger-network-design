@@ -1,0 +1,9 @@
+{
+  "coordinate_system": "GCJ-02",
+  "hubs": [
+    {"name": "笔架山", "taz_id": 215, "longitude": 114.073304, "latitude": 22.557695},
+    {"name": "莲花山", "taz_id": 202, "longitude": 114.063532, "latitude": 22.549418},
+    {"name": "印力", "taz_id": 1112, "longitude": 114.012131, "latitude": 22.545508},
+    {"name": "区委", "taz_id": 1100, "longitude": 114.055045, "latitude": 22.521542}
+  ]
+}

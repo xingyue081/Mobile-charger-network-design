@@ -1,0 +1,56 @@
+
+Gurobi 13.0.3 (mac64[arm]) logging started Wed Nov  4 03:21:48 2026
+
+Set parameter LogFile to value "/Users/xingyueyi/Desktop/CG_solver/numerical_exp/exp_hub/hub_54/charge_centrally_gurobi/round_016.log"
+Set parameter DisplayInterval to value 30
+Set parameter MIPGap to value 0.001
+Set parameter TimeLimit to value 600
+Gurobi Optimizer version 13.0.3 build v13.0.3rc0 (mac64[arm] - Darwin 24.5.0 24F74)
+
+CPU model: Apple M4
+Thread count: 10 physical cores, 10 logical processors, using up to 4 threads
+
+Non-default parameters:
+TimeLimit  600
+MIPGap  0.001
+DisplayInterval  30
+LogToConsole  0
+Threads  4
+
+Optimize a model with 7258 rows, 5233 columns and 122773 nonzeros (Max)
+Model fingerprint: 0x6e645dce
+Model has 225 linear objective coefficients
+Variable types: 228 continuous, 5005 integer (1260 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 4e+02]
+  Objective range  [8e-03, 5e+01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+05]
+
+User MIP start produced solution with objective 49841.3 (0.01s)
+Loaded user MIP start with objective 49841.3
+
+Presolve added 0 rows and 2 columns
+Presolve removed 153 rows and 0 columns
+Presolve time: 0.10s
+Presolved: 7105 rows, 5235 columns, 111803 nonzeros
+Variable types: 123 continuous, 5112 integer (1260 binary)
+
+Root relaxation: objective 7.064916e+04, 2617 iterations, 0.09 seconds (0.28 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 70649.1557    0   23 49841.2527 70649.1557  41.7%     -    0s
+H    0     0                    70570.276083 70649.1557  0.11%     -    0s
+H    0     0                    70593.541286 70649.1557  0.08%     -    0s
+
+Explored 1 nodes (2646 simplex iterations) in 0.30 seconds (0.66 work units)
+Thread count was 4 (of 10 available processors)
+
+Solution count 3: 70593.5 70570.3 49841.3 
+
+Optimal solution found (tolerance 1.00e-03)
+Best objective 7.059354128558e+04, best bound 7.064915570295e+04, gap 0.0788%
+
+User-callback calls 418, time in user-callback 0.00 sec

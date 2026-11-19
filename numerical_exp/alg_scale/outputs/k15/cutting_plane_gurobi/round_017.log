@@ -1,0 +1,87 @@
+
+Gurobi 13.0.3 (mac64[arm]) logging started Sat Nov  7 20:36:14 2026
+
+Set parameter LogFile to value "/Users/xingyueyi/Desktop/CG_solver/numerical_exp/alg_scale/outputs/k15/cutting_plane_gurobi/round_017.log"
+Set parameter DisplayInterval to value 30
+Set parameter MIPGap to value 0.001
+Set parameter TimeLimit to value 600
+Gurobi Optimizer version 13.0.3 build v13.0.3rc0 (mac64[arm] - Darwin 24.5.0 24F74)
+
+CPU model: Apple M4
+Thread count: 10 physical cores, 10 logical processors, using up to 4 threads
+
+Non-default parameters:
+TimeLimit  600
+MIPGap  0.001
+DisplayInterval  30
+LogToConsole  0
+Threads  4
+
+Optimize a model with 2966 rows, 1111 columns and 36125 nonzeros (Max)
+Model fingerprint: 0x4485b12d
+Model has 163 linear objective coefficients
+Variable types: 166 continuous, 945 integer (240 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 4e+02]
+  Objective range  [8e-03, 5e+01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [5e-13, 5e+04]
+
+User MIP start produced solution with objective 32683.9 (0.00s)
+Loaded user MIP start with objective 32683.9
+
+Presolve removed 133 rows and 0 columns
+Presolve time: 0.02s
+Presolved: 2833 rows, 1111 columns, 33626 nonzeros
+Variable types: 121 continuous, 990 integer (240 binary)
+
+Root relaxation: objective 3.277217e+04, 934 iterations, 0.03 seconds (0.07 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 32772.1692    0   52 32683.9282 32772.1692  0.27%     -    0s
+H    0     0                    32697.761454 32772.1692  0.23%     -    0s
+     0     0 32761.3414    0   53 32697.7615 32761.3414  0.19%     -    0s
+H    0     0                    32701.080510 32761.0812  0.18%     -    0s
+     0     0 32757.9798    0   47 32701.0805 32757.9798  0.17%     -    0s
+     0     0 32757.2212    0   45 32701.0805 32757.2212  0.17%     -    0s
+     0     0 32757.2153    0   46 32701.0805 32757.2153  0.17%     -    0s
+     0     0 32753.7870    0   46 32701.0805 32753.7870  0.16%     -    0s
+     0     0 32753.1923    0   54 32701.0805 32753.1923  0.16%     -    0s
+     0     0 32753.1923    0   53 32701.0805 32753.1923  0.16%     -    0s
+     0     0 32749.8883    0   83 32701.0805 32749.8883  0.15%     -    0s
+     0     0 32749.4931    0   68 32701.0805 32749.4931  0.15%     -    0s
+     0     0 32748.9316    0  104 32701.0805 32748.9316  0.15%     -    0s
+H    0     0                    32705.847585 32748.7578  0.13%     -    0s
+     0     0 32748.7578    0   94 32705.8476 32748.7578  0.13%     -    0s
+     0     0 32748.7384    0   95 32705.8476 32748.7384  0.13%     -    0s
+     0     0 32747.8526    0  106 32705.8476 32747.8526  0.13%     -    0s
+     0     0 32747.4846    0  124 32705.8476 32747.4846  0.13%     -    0s
+     0     0 32747.4111    0  112 32705.8476 32747.4111  0.13%     -    0s
+     0     0 32747.4000    0  114 32705.8476 32747.4000  0.13%     -    0s
+     0     0 32747.3903    0  114 32705.8476 32747.3903  0.13%     -    0s
+H    0     0                    32711.049333 32747.3903  0.11%     -    0s
+H    0     0                    32711.557415 32747.3903  0.11%     -    0s
+     0     0 32747.0715    0  163 32711.5574 32747.0715  0.11%     -    0s
+     0     0 32746.9132    0  134 32711.5574 32746.9132  0.11%     -    0s
+     0     0 32746.8755    0  133 32711.5574 32746.8755  0.11%     -    0s
+     0     0 32746.8729    0  133 32711.5574 32746.8729  0.11%     -    0s
+H    0     0                    32722.986083 32746.8729  0.07%     -    0s
+
+Cutting planes:
+  Gomory: 3
+  Implied bound: 8
+  MIR: 109
+  Flow cover: 8
+  RLT: 1
+
+Explored 1 nodes (1753 simplex iterations) in 0.52 seconds (0.64 work units)
+Thread count was 4 (of 10 available processors)
+
+Solution count 7: 32723 32711.6 32711 ... 32683.9
+
+Optimal solution found (tolerance 1.00e-03)
+Best objective 3.272298608276e+04, best bound 3.274687291463e+04, gap 0.0730%
+
+User-callback calls 638, time in user-callback 0.00 sec

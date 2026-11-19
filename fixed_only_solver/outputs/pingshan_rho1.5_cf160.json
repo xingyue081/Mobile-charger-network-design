@@ -1,0 +1,444 @@
+{
+  "model": "fixed-only",
+  "status": "CONVERGED",
+  "converged": true,
+  "reason": "没有新的割，主问题相对间隙已达到 Gurobi 接受的范围",
+  "iterations": 25,
+  "objective": 12383.944543056627,
+  "bound": 12383.944543056627,
+  "mip_gap": 0.0,
+  "elapsed_seconds": 16.47792745893821,
+  "decision": {
+    "taz_ids": [
+      848,
+      881,
+      882,
+      883,
+      887,
+      888,
+      890,
+      891,
+      893,
+      895,
+      897,
+      900,
+      901,
+      902,
+      903,
+      904
+    ],
+    "n": [
+      1,
+      18,
+      2,
+      1,
+      7,
+      37,
+      0,
+      19,
+      1,
+      9,
+      3,
+      2,
+      0,
+      4,
+      8,
+      8
+    ],
+    "capacity": [
+      190.0,
+      3420.0,
+      380.0,
+      190.0,
+      1330.0,
+      7030.0,
+      0.0,
+      3610.0,
+      190.0,
+      1710.0,
+      570.0,
+      380.0,
+      0.0,
+      760.0,
+      1520.0,
+      1520.0
+    ],
+    "mobile_chargers": 0,
+    "investment_cost": 19200.0,
+    "operating_profit": 31583.944543056627,
+    "evaluated_operating_profit": 31583.944542763984,
+    "operating_profit_by_date_type": {
+      "workday": 21149.561554460324,
+      "weekend": 7514.4316443705975,
+      "holiday": 2919.9513439330617
+    }
+  },
+  "pattern_count": 2437,
+  "history": [
+    {
+      "iteration": 1,
+      "master_status": "OPTIMAL",
+      "objective": 13995.240194744261,
+      "bound": 13995.240194744261,
+      "master_mip_gap_target": null,
+      "cuts_written": true,
+      "accounted_violations_not_written": 0,
+      "added": 117,
+      "elapsed_seconds": 0.3267750421073288
+    },
+    {
+      "iteration": 2,
+      "master_status": "OPTIMAL",
+      "objective": 13995.240194744261,
+      "bound": 13995.240194744261,
+      "master_mip_gap_target": null,
+      "cuts_written": true,
+      "accounted_violations_not_written": 0,
+      "added": 117,
+      "elapsed_seconds": 0.707775458926335
+    },
+    {
+      "iteration": 3,
+      "master_status": "OPTIMAL",
+      "objective": 13995.240194744261,
+      "bound": 13996.206152622119,
+      "master_mip_gap_target": null,
+      "cuts_written": true,
+      "accounted_violations_not_written": 0,
+      "added": 117,
+      "elapsed_seconds": 1.069549750071019
+    },
+    {
+      "iteration": 4,
+      "master_status": "OPTIMAL",
+      "objective": 13995.240194744261,
+      "bound": 13996.206152622119,
+      "master_mip_gap_target": null,
+      "cuts_written": true,
+      "accounted_violations_not_written": 0,
+      "added": 117,
+      "elapsed_seconds": 1.4146877089515328
+    },
+    {
+      "iteration": 5,
+      "master_status": "OPTIMAL",
+      "objective": 13995.240194744261,
+      "bound": 13995.240194744261,
+      "master_mip_gap_target": null,
+      "cuts_written": true,
+      "accounted_violations_not_written": 0,
+      "added": 117,
+      "elapsed_seconds": 1.7456759170163423
+    },
+    {
+      "iteration": 6,
+      "master_status": "OPTIMAL",
+      "objective": 13995.240194744261,
+      "bound": 13996.206152622119,
+      "master_mip_gap_target": null,
+      "cuts_written": true,
+      "accounted_violations_not_written": 0,
+      "added": 117,
+      "elapsed_seconds": 2.1013651669491082
+    },
+    {
+      "iteration": 7,
+      "master_status": "OPTIMAL",
+      "objective": 13972.931127816528,
+      "bound": 13973.834334294148,
+      "master_mip_gap_target": null,
+      "cuts_written": true,
+      "accounted_violations_not_written": 0,
+      "added": 117,
+      "elapsed_seconds": 2.458615625044331
+    },
+    {
+      "iteration": 8,
+      "master_status": "OPTIMAL",
+      "objective": 13820.846997184135,
+      "bound": 13822.143612169404,
+      "master_mip_gap_target": null,
+      "cuts_written": true,
+      "accounted_violations_not_written": 0,
+      "added": 117,
+      "elapsed_seconds": 2.860224583884701
+    },
+    {
+      "iteration": 9,
+      "master_status": "OPTIMAL",
+      "objective": 13553.498700181046,
+      "bound": 13553.498700181046,
+      "master_mip_gap_target": null,
+      "cuts_written": true,
+      "accounted_violations_not_written": 0,
+      "added": 117,
+      "elapsed_seconds": 3.2768244589678943
+    },
+    {
+      "iteration": 10,
+      "master_status": "OPTIMAL",
+      "objective": 13423.218943784359,
+      "bound": 13423.961936954754,
+      "master_mip_gap_target": null,
+      "cuts_written": true,
+      "accounted_violations_not_written": 0,
+      "added": 117,
+      "elapsed_seconds": 3.784042292041704
+    },
+    {
+      "iteration": 11,
+      "master_status": "OPTIMAL",
+      "objective": 13038.054857062923,
+      "bound": 13038.747937004313,
+      "master_mip_gap_target": null,
+      "cuts_written": true,
+      "accounted_violations_not_written": 0,
+      "added": 117,
+      "elapsed_seconds": 4.325288125080988
+    },
+    {
+      "iteration": 12,
+      "master_status": "OPTIMAL",
+      "objective": 12884.38533522286,
+      "bound": 12885.65172664915,
+      "master_mip_gap_target": null,
+      "cuts_written": true,
+      "accounted_violations_not_written": 0,
+      "added": 117,
+      "elapsed_seconds": 4.903962458949536
+    },
+    {
+      "iteration": 13,
+      "master_status": "OPTIMAL",
+      "objective": 12694.7614902757,
+      "bound": 12695.631549582313,
+      "master_mip_gap_target": null,
+      "cuts_written": true,
+      "accounted_violations_not_written": 0,
+      "added": 113,
+      "elapsed_seconds": 5.6260077089536935
+    },
+    {
+      "iteration": 14,
+      "master_status": "OPTIMAL",
+      "objective": 12556.590217007879,
+      "bound": 12556.590217007879,
+      "master_mip_gap_target": null,
+      "cuts_written": true,
+      "accounted_violations_not_written": 0,
+      "added": 100,
+      "elapsed_seconds": 6.3310193750076
+    },
+    {
+      "iteration": 15,
+      "master_status": "OPTIMAL",
+      "objective": 12519.770715800449,
+      "bound": 12521.02062837696,
+      "master_mip_gap_target": null,
+      "cuts_written": true,
+      "accounted_violations_not_written": 0,
+      "added": 96,
+      "elapsed_seconds": 6.883751458954066
+    },
+    {
+      "iteration": 16,
+      "master_status": "OPTIMAL",
+      "objective": 12476.209785467528,
+      "bound": 12477.433476391569,
+      "master_mip_gap_target": null,
+      "cuts_written": true,
+      "accounted_violations_not_written": 0,
+      "added": 99,
+      "elapsed_seconds": 7.470628374954686
+    },
+    {
+      "iteration": 17,
+      "master_status": "OPTIMAL",
+      "objective": 12441.359523725443,
+      "bound": 12441.359523725443,
+      "master_mip_gap_target": null,
+      "cuts_written": true,
+      "accounted_violations_not_written": 0,
+      "added": 77,
+      "elapsed_seconds": 8.359714374877512
+    },
+    {
+      "iteration": 18,
+      "master_status": "OPTIMAL",
+      "objective": 12429.244765421918,
+      "bound": 12429.244765421918,
+      "master_mip_gap_target": null,
+      "cuts_written": true,
+      "accounted_violations_not_written": 0,
+      "added": 94,
+      "elapsed_seconds": 9.385516209062189
+    },
+    {
+      "iteration": 19,
+      "master_status": "OPTIMAL",
+      "objective": 12415.681726691606,
+      "bound": 12415.681726691606,
+      "master_mip_gap_target": null,
+      "cuts_written": true,
+      "accounted_violations_not_written": 0,
+      "added": 69,
+      "elapsed_seconds": 10.177600499941036
+    },
+    {
+      "iteration": 20,
+      "master_status": "OPTIMAL",
+      "objective": 12410.525792262355,
+      "bound": 12410.525792262355,
+      "master_mip_gap_target": null,
+      "cuts_written": true,
+      "accounted_violations_not_written": 0,
+      "added": 46,
+      "elapsed_seconds": 10.960758874891326
+    },
+    {
+      "iteration": 21,
+      "master_status": "OPTIMAL",
+      "objective": 12394.854612235058,
+      "bound": 12394.854612235058,
+      "master_mip_gap_target": null,
+      "cuts_written": true,
+      "accounted_violations_not_written": 0,
+      "added": 26,
+      "elapsed_seconds": 11.91244108392857
+    },
+    {
+      "iteration": 22,
+      "master_status": "OPTIMAL",
+      "objective": 12391.490085805946,
+      "bound": 12391.490085805946,
+      "master_mip_gap_target": null,
+      "cuts_written": true,
+      "accounted_violations_not_written": 0,
+      "added": 44,
+      "elapsed_seconds": 13.003705834038556
+    },
+    {
+      "iteration": 23,
+      "master_status": "OPTIMAL",
+      "objective": 12386.198530507181,
+      "bound": 12386.198530507181,
+      "master_mip_gap_target": null,
+      "cuts_written": true,
+      "accounted_violations_not_written": 0,
+      "added": 29,
+      "elapsed_seconds": 13.885673458920792
+    },
+    {
+      "iteration": 24,
+      "master_status": "OPTIMAL",
+      "objective": 12385.873127977366,
+      "bound": 12385.873127977366,
+      "master_mip_gap_target": null,
+      "cuts_written": true,
+      "accounted_violations_not_written": 0,
+      "added": 6,
+      "elapsed_seconds": 15.088414167053998
+    },
+    {
+      "iteration": 25,
+      "master_status": "OPTIMAL",
+      "objective": 12383.944543056627,
+      "bound": 12383.944543056627,
+      "master_mip_gap_target": null,
+      "cuts_written": true,
+      "accounted_violations_not_written": 0,
+      "added": 0,
+      "elapsed_seconds": 16.028580584097654
+    }
+  ],
+  "parameters": {
+    "rho": 1.5,
+    "shortage_penalty": 0.0,
+    "fixed_unit_cost": 160.0,
+    "fixed_capacity": 190.0
+  },
+  "dataset": "pingshan",
+  "gurobi": [
+    13,
+    0,
+    3
+  ],
+  "mobile_chargers": 0,
+  "provenance": {
+    "data_dir": "/Users/xingyueyi/Desktop/CG_solver/pingshan",
+    "parameters": "/Users/xingyueyi/Desktop/CG_solver/pingshan/pingshan_parameters.npz",
+    "business": "/Users/xingyueyi/Desktop/CG_solver/pingshan/business.json",
+    "taz_ids": [
+      848,
+      881,
+      882,
+      883,
+      887,
+      888,
+      890,
+      891,
+      893,
+      895,
+      897,
+      900,
+      901,
+      902,
+      903,
+      904
+    ],
+    "sample_count": {
+      "workday": 82,
+      "weekend": 27,
+      "holiday": 8
+    },
+    "probability": {
+      "workday": 0.680327868852459,
+      "weekend": 0.22950819672131148,
+      "holiday": 0.09016393442622951
+    },
+    "epsilon": {
+      "workday": 213.77470240668688,
+      "weekend": 199.43834521937444,
+      "holiday": 196.18722771492398
+    },
+    "radius": 5.478064143084673,
+    "business_overrides": {
+      "rho": 1.5,
+      "shortage_penalty": 0.0,
+      "fixed_unit_cost": 160.0
+    },
+    "excluded_business_fields": {
+      "mobile_capacity": 160.0,
+      "mobile_unit_cost": 115.0,
+      "transport_cost_per_distance": 0.001,
+      "hub_open_cost": 160.0
+    },
+    "distance_shape": [
+      16,
+      16
+    ],
+    "note": "歧义集使用这份 npz 的样本、mu、Sigma_inv、r 和 epsilon_l。距离矩阵和移动桩业务参数只做来源核对，fixed-only 模型不使用。"
+  },
+  "ambiguity_set": {
+    "sample_box": "[max(0, d_i - epsilon_l), d_i + epsilon_l]",
+    "ellipsoid": "(D - mu)^T Sigma_inv (D - mu) <= r^2",
+    "radius": 5.478064143084673,
+    "epsilon_l": {
+      "workday": 213.77470240668688,
+      "weekend": 199.43834521937444,
+      "holiday": 196.18722771492398
+    },
+    "q_l": {
+      "workday": 0.680327868852459,
+      "weekend": 0.22950819672131148,
+      "holiday": 0.09016393442622951
+    },
+    "sample_count": {
+      "workday": 82,
+      "weekend": 27,
+      "holiday": 8
+    },
+    "sample_weight": "q_l / N_l,Omega，N_l,Omega 是 npz 中该日期类型的样本行数"
+  },
+  "scope": "fixed-only 对照。只有固定桩数量 n_i，容量为 tau*n_i。没有 hub、移动桩、调度和运输成本。歧义集与数据包里的盒子和共享椭球一致。到时停止或达到迭代上限都不是最优性证书。"
+}

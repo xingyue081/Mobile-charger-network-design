@@ -1,0 +1,64 @@
+
+Gurobi 13.0.3 (mac64[arm]) logging started Thu Nov 19 16:15:43 2026
+
+Set parameter LogFile to value "/Users/xingyueyi/Desktop/CG_solver/numerical_exp/param_retune/probe_4hub_5pct/results/cf200_cm160_hub200_centrally_gurobi/round_008.log"
+Set parameter DisplayInterval to value 30
+Set parameter MIPGap to value 0.01
+Set parameter TimeLimit to value 600
+Gurobi Optimizer version 13.0.3 build v13.0.3rc0 (mac64[arm] - Darwin 24.5.0 24F74)
+
+CPU model: Apple M4
+Thread count: 10 physical cores, 10 logical processors, using up to 4 threads
+
+Non-default parameters:
+TimeLimit  600
+MIPGap  0.01
+DisplayInterval  30
+LogToConsole  0
+Threads  4
+
+Optimize a model with 1834 rows, 831 columns and 63559 nonzeros (Max)
+Model fingerprint: 0x73c18ca5
+Model has 163 linear objective coefficients
+Variable types: 228 continuous, 603 integer (144 binary)
+Coefficient statistics:
+  Matrix range     [5e-01, 8e+02]
+  Objective range  [8e-03, 2e+02]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+05]
+
+User MIP start produced solution with objective -137410 (0.00s)
+Loaded user MIP start with objective -137410
+MIP start from previous solve did not produce a new incumbent solution
+
+Presolve removed 217 rows and 96 columns
+Presolve time: 0.02s
+Presolved: 1617 rows, 735 columns, 9534 nonzeros
+Found heuristic solution: objective -93903.32076
+Variable types: 123 continuous, 612 integer (144 binary)
+
+Root relaxation: objective 2.173074e+04, 652 iterations, 0.01 seconds (0.02 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 21730.7358    0   45 -93903.321 21730.7358   123%     -    0s
+H    0     0                    21420.783764 21730.7358  1.45%     -    0s
+H    0     0                    21520.671518 21730.7358  0.98%     -    0s
+H    0     0                    21718.272144 21730.7358  0.06%     -    0s
+
+Cutting planes:
+  Gomory: 5
+  MIR: 16
+
+Explored 1 nodes (665 simplex iterations) in 0.05 seconds (0.10 work units)
+Thread count was 4 (of 10 available processors)
+
+Solution count 5: 21718.3 21520.7 21420.8 ... -137410
+
+Optimal solution found (tolerance 1.00e-02)
+Best objective 2.171827214363e+04, best bound 2.172646443872e+04, gap 0.0377%
+
+User-callback calls 407, time in user-callback 0.00 sec
+Set parameter OutputFlag to value 1
+Set parameter LogToConsole to value 0

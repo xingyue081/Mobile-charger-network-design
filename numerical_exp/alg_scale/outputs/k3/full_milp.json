@@ -1,0 +1,133 @@
+{
+  "method": "full_pattern_milp",
+  "k": 3,
+  "dataset": "futian",
+  "parameters": {
+    "rho": 2.0,
+    "shortage_penalty": 0.0,
+    "fixed_capacity": 190.0,
+    "mobile_capacity": 160.0,
+    "fixed_unit_cost": 41.0,
+    "mobile_unit_cost": 45.0,
+    "gamma": 0.001,
+    "hub_open_cost": 50.0,
+    "local_g_not_used": 0.25
+  },
+  "pattern_count_per_sample": 8,
+  "heights_built": 936,
+  "h_seconds": 0.14677754102740437,
+  "zone_ids": [
+    202,
+    204,
+    205
+  ],
+  "sample_counts": {
+    "workday": 80,
+    "weekend": 27,
+    "holiday": 10
+  },
+  "solve_seconds": 0.015678882598876953,
+  "status_name": "OPTIMAL",
+  "converged": true,
+  "stop_reason": null,
+  "objective": 2705.048326439168,
+  "bound": 2705.048326439168,
+  "gap": 0.0,
+  "mip_gap": 0.0,
+  "decision": {
+    "x": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "m": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "n": {
+      "0": 5,
+      "1": 6,
+      "2": 3
+    },
+    "y": {
+      "0,0": 0,
+      "0,1": 0,
+      "0,2": 0,
+      "1,0": 0,
+      "1,1": 0,
+      "1,2": 0,
+      "2,0": 0,
+      "2,1": 0,
+      "2,2": 0
+    },
+    "z": {
+      "0,0,0": 0,
+      "0,0,1": 0,
+      "0,0,2": 0,
+      "0,1,0": 0,
+      "0,1,1": 0,
+      "0,1,2": 0,
+      "0,2,0": 0,
+      "0,2,1": 0,
+      "0,2,2": 0,
+      "1,0,0": 0,
+      "1,0,1": 0,
+      "1,0,2": 0,
+      "1,1,0": 0,
+      "1,1,1": 0,
+      "1,1,2": 0,
+      "1,2,0": 0,
+      "1,2,1": 0,
+      "1,2,2": 0,
+      "2,0,0": 0,
+      "2,0,1": 0,
+      "2,0,2": 0,
+      "2,1,0": 0,
+      "2,1,1": 0,
+      "2,1,2": 0,
+      "2,2,0": 0,
+      "2,2,1": 0,
+      "2,2,2": 0
+    }
+  },
+  "deployment": {
+    "hubs": [],
+    "zones": [
+      {
+        "index": 0,
+        "taz_id": 202,
+        "fixed_chargers": 5,
+        "hub_taz_id": null,
+        "dispatch": {
+          "workday": [],
+          "weekend": [],
+          "holiday": []
+        }
+      },
+      {
+        "index": 1,
+        "taz_id": 204,
+        "fixed_chargers": 6,
+        "hub_taz_id": null,
+        "dispatch": {
+          "workday": [],
+          "weekend": [],
+          "holiday": []
+        }
+      },
+      {
+        "index": 2,
+        "taz_id": 205,
+        "fixed_chargers": 3,
+        "hub_taz_id": null,
+        "dispatch": {
+          "workday": [],
+          "weekend": [],
+          "holiday": []
+        }
+      }
+    ]
+  },
+  "elapsed_seconds": 0.17324720800388604
+}

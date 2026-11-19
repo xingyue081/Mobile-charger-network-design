@@ -1,0 +1,108 @@
+{
+  "data": "/Users/xingyueyi/Desktop/CG_solver/futian",
+  "artifact": "/Users/xingyueyi/Desktop/CG_solver/futian/futian_parameters.npz",
+  "taz_ids": [
+    202,
+    204,
+    205,
+    206,
+    208,
+    212,
+    213,
+    214,
+    215,
+    216,
+    217,
+    223,
+    224,
+    225,
+    226,
+    227,
+    235,
+    1061,
+    1062,
+    1099,
+    1100,
+    1102,
+    1104,
+    1106,
+    1107,
+    1109,
+    1110,
+    1111,
+    1112,
+    1113,
+    1114,
+    1115,
+    1168,
+    1172,
+    1173
+  ],
+  "in_support_counts": {
+    "workday": 82,
+    "weekend": 28,
+    "holiday": 10
+  },
+  "q_l": {
+    "workday": 0.680327868852459,
+    "weekend": 0.22950819672131148,
+    "holiday": 0.09016393442622951
+  },
+  "epsilon_l": {
+    "workday": 284.26873062889507,
+    "weekend": 281.75413436631277,
+    "holiday": 204.32489470559034
+  },
+  "radius": 7.938691740153008,
+  "local_g": 0.1,
+  "rho": 2.0,
+  "penalty": 0.0,
+  "tau": 190.0,
+  "kappa": 160.0,
+  "fixed_cost": 41.0,
+  "mobile_cost": 45.0,
+  "gamma": 0.001,
+  "business_overrides": {
+    "shortage_penalty": 0.0
+  },
+  "m_bar": 1050.0,
+  "transition_probability": {
+    "holiday->workday": 0.01652892561983471,
+    "weekend->workday": 0.11570247933884298,
+    "workday->holiday": 0.024793388429752067,
+    "workday->weekend": 0.11570247933884298
+  }
+}
+Set parameter LicenseID to value 2764505
+{"iteration": 1, "master_status": "OPTIMAL", "objective": 68049.8190715736, "bound": 68056.62351665337, "elapsed_seconds": 957.8282351249945, "master_seconds": 950.8705430030823, "node_count": 1370481, "stalled": false, "master_mip_gap_target": 0.0001}
+{"iteration": 2, "master_status": "OPTIMAL", "objective": 68049.86717991116, "bound": 68056.66957646076, "elapsed_seconds": 1700.9676709159976, "master_seconds": 740.0207970142365, "node_count": 1094090, "stalled": false, "master_mip_gap_target": 0.0001}
+{"iteration": 3, "master_status": "OPTIMAL", "objective": 68049.86693835116, "bound": 68056.67044057678, "elapsed_seconds": 2502.2453796250047, "master_seconds": 773.0865640640259, "node_count": 1249997, "stalled": false, "master_mip_gap_target": 0.0001}
+{"iteration": 4, "master_status": "OPTIMAL", "objective": 68049.72549547326, "bound": 68056.53042571737, "elapsed_seconds": 3402.5314724160125, "master_seconds": 898.5474779605865, "node_count": 1492915, "stalled": true, "master_mip_gap_target": 0.0001}
+{"iteration": 5, "master_status": "OPTIMAL", "objective": 68049.68444592408, "bound": 68056.4882488213, "elapsed_seconds": 4102.95028679102, "master_seconds": 699.1506478786469, "node_count": 1136748, "stalled": false, "master_mip_gap_target": 0.0001}
+{"iteration": 6, "master_status": "OPTIMAL", "objective": 68049.31204045095, "bound": 68056.11125781112, "elapsed_seconds": 4957.1247474160045, "master_seconds": 851.8942050933838, "node_count": 1341424, "stalled": false, "master_mip_gap_target": 0.0001}
+{"iteration": 7, "master_status": "OPTIMAL", "objective": 68049.5191607404, "bound": 68056.32184975506, "elapsed_seconds": 5780.895784875029, "master_seconds": 816.9090130329132, "node_count": 1370186, "stalled": false, "master_mip_gap_target": 0.0001}
+{"iteration": 8, "master_status": "OPTIMAL", "objective": 68049.6458300838, "bound": 68056.44834623767, "elapsed_seconds": 6570.620717375015, "master_seconds": 788.2490170001984, "node_count": 1308312, "stalled": false, "master_mip_gap_target": 0.0001}
+{"iteration": 9, "master_status": "OPTIMAL", "objective": 68049.5918861245, "bound": 68056.39552301608, "elapsed_seconds": 7374.841022707988, "master_seconds": 802.4505171775818, "node_count": 1310153, "stalled": false, "master_mip_gap_target": 0.0001}
+{"iteration": 10, "master_status": "OPTIMAL", "objective": 68049.49208764928, "bound": 68056.2943298647, "elapsed_seconds": 8420.031880208, "master_seconds": 1041.7038860321045, "node_count": 1566609, "stalled": false, "master_mip_gap_target": 0.0001}
+{"iteration": 11, "master_status": "OPTIMAL", "objective": 68049.43318815403, "bound": 68056.23743574084, "elapsed_seconds": 9288.984983208007, "master_seconds": 867.3330490589142, "node_count": 1392112, "stalled": false, "master_mip_gap_target": 0.0001}
+{"iteration": 12, "master_status": "OPTIMAL", "objective": 68048.87507317263, "bound": 68055.67896061261, "elapsed_seconds": 10264.296628082986, "master_seconds": 974.2299737930298, "node_count": 1593100, "stalled": false, "master_mip_gap_target": 0.0001}
+{"iteration": 13, "master_status": "OPTIMAL", "objective": 68049.2579997403, "bound": 68056.06271261955, "elapsed_seconds": 11083.742081166012, "master_seconds": 816.5163099765778, "node_count": 1300075, "stalled": false, "master_mip_gap_target": 0.0001}
+{"iteration": 14, "master_status": "OPTIMAL", "objective": 68049.1307865393, "bound": 68055.93404402606, "elapsed_seconds": 11993.35434512503, "master_seconds": 903.4420039653778, "node_count": 1437916, "stalled": false, "master_mip_gap_target": 0.0001}
+{"iteration": 15, "master_status": "OPTIMAL", "objective": 68049.17598899292, "bound": 68055.98049125705, "elapsed_seconds": 12959.579588458, "master_seconds": 933.847795009613, "node_count": 1606520, "stalled": false, "master_mip_gap_target": 0.0001}
+{"iteration": 16, "master_status": "OPTIMAL", "objective": 68049.26523639179, "bound": 68056.06751786575, "elapsed_seconds": 13839.34744516603, "master_seconds": 867.0386528968811, "node_count": 1432436, "stalled": false, "master_mip_gap_target": 0.0001}
+{"iteration": 17, "master_status": "OPTIMAL", "objective": 68049.193627956, "bound": 68055.99752266858, "elapsed_seconds": 14681.884023083025, "master_seconds": 840.7316768169403, "node_count": 1310737, "stalled": false, "master_mip_gap_target": 0.0001}
+{"iteration": 18, "master_status": "OPTIMAL", "objective": 68049.35491309543, "bound": 68056.1577647985, "elapsed_seconds": 15545.661981958023, "master_seconds": 824.5734601020813, "node_count": 1385557, "stalled": false, "master_mip_gap_target": 0.0001}
+{"iteration": 19, "master_status": "OPTIMAL", "objective": 68049.25702779849, "bound": 68056.05992823202, "elapsed_seconds": 16507.480614875036, "master_seconds": 959.952810049057, "node_count": 1411019, "stalled": false, "master_mip_gap_target": 0.0001}
+{"iteration": 20, "master_status": "OPTIMAL", "objective": 68049.22089730753, "bound": 68056.02333041698, "elapsed_seconds": 17374.071194791002, "master_seconds": 864.6018779277802, "node_count": 1431975, "stalled": false, "master_mip_gap_target": 0.0001}
+{"iteration": 21, "master_status": "OPTIMAL", "objective": 68049.00511920195, "bound": 68055.80829253295, "elapsed_seconds": 18311.95910341601, "master_seconds": 936.2883570194244, "node_count": 1540443, "stalled": false, "master_mip_gap_target": 0.0001}
+{"iteration": 22, "master_status": "OPTIMAL", "objective": 68049.14853028722, "bound": 68055.95141577724, "elapsed_seconds": 19227.810802499996, "master_seconds": 913.5344078540802, "node_count": 1270343, "stalled": false, "master_mip_gap_target": 0.0001}
+{
+  "status": "CONVERGED",
+  "reason": "ALL_SEPARATIONS_WITHIN_TOLERANCE",
+  "iterations": 22,
+  "objective": 68049.14853028722,
+  "bound": 68055.95141577724,
+  "elapsed_seconds": 19268.589106166037,
+  "pattern_count": 3018,
+  "output": "/Users/xingyueyi/Desktop/CG_solver/charge_locally_solver/outputs/futian_b0_g0.1_adaptgap_cert.json"
+}

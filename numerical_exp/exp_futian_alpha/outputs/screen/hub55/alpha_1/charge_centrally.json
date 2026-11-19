@@ -1,0 +1,23 @@
+{
+  "objective": 68011.29746988894,
+  "bound": 68017.53841902874,
+  "mip_gap": 9.176341831388284e-05,
+  "iterations": 60,
+  "stop_reason": "没有新的割，主问题相对间隙已达到 Gurobi 接受的范围",
+  "status_name": "OPTIMAL",
+  "fixed_chargers": 287,
+  "mobile_chargers": 11,
+  "hub_count": 1,
+  "hub_indexes": [
+    3
+  ],
+  "dataset": "futian",
+  "shortage_penalty": 0.0,
+  "round_log": "/Users/xingyueyi/Desktop/CG_solver/charge_centrally_solver_1030/outputs/futian_b0_adaptgap_rounds.jsonl",
+  "gurobi_log_dir": "/Users/xingyueyi/Desktop/CG_solver/charge_centrally_solver_1030/outputs/futian_b0_adaptgap_gurobi",
+  "reformulation": "transport and inflow lifted; unproven master does not add cuts; previous integer solution is the next MIP start; adaptive master gap 1e-3 until no new cut, then 0.0001",
+  "separation_seconds": null,
+  "elapsed_seconds": null,
+  "node_count": null,
+  "num_nzs": null
+}

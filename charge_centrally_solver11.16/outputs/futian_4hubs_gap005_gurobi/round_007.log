@@ -1,0 +1,177 @@
+
+Gurobi 13.0.3 (mac64[arm]) logging started Wed Nov 18 20:51:52 2026
+
+Set parameter LogFile to value "outputs/futian_4hubs_gap005_gurobi/round_007.log"
+Set parameter DisplayInterval to value 30
+Set parameter MIPGap to value 0.005
+Set parameter TimeLimit to value 600
+Gurobi Optimizer version 13.0.3 build v13.0.3rc0 (mac64[arm] - Darwin 24.5.0 24F74)
+
+CPU model: Apple M4
+Thread count: 10 physical cores, 10 logical processors, using up to 4 threads
+
+Non-default parameters:
+TimeLimit  600
+MIPGap  0.005
+DisplayInterval  30
+LogToConsole  0
+Threads  4
+
+Optimize a model with 1174 rows, 831 columns and 22083 nonzeros (Max)
+Model fingerprint: 0x3f7f3043
+Model has 163 linear objective coefficients
+Variable types: 228 continuous, 603 integer (144 binary)
+Coefficient statistics:
+  Matrix range     [5e-01, 8e+02]
+  Objective range  [8e-03, 2e+02]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+05]
+
+User MIP start produced solution with objective -2376.83 (0.00s)
+User MIP start produced solution with objective -2376.83 (0.00s)
+Loaded user MIP start with objective -2376.83
+MIP start from previous solve did not produce a new incumbent solution
+
+Presolve removed 329 rows and 119 columns
+Presolve time: 0.01s
+Presolved: 845 rows, 712 columns, 4231 nonzeros
+Found heuristic solution: objective -64683.30370
+Variable types: 125 continuous, 587 integer (144 binary)
+
+Root relaxation: objective 3.688436e+04, 263 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 36884.3629    0   23 -2376.8320 36884.3629  1652%     -    0s
+H    0     0                    36877.396950 36884.3629  0.02%     -    0s
+
+Explored 1 nodes (265 simplex iterations) in 0.01 seconds (0.03 work units)
+Thread count was 4 (of 10 available processors)
+
+Solution count 3: 36877.4 -2376.83 -64683.3 
+
+Optimal solution found (tolerance 5.00e-03)
+Best objective 3.687739695011e+04, best bound 3.688436287155e+04, gap 0.0189%
+
+User-callback calls 406, time in user-callback 0.00 sec
+Set parameter OutputFlag to value 1
+Set parameter LogToConsole to value 0
+
+Gurobi 13.0.3 (mac64[arm]) logging started Wed Nov 18 21:07:51 2026
+
+Set parameter LogFile to value "outputs/futian_4hubs_gap005_gurobi/round_007.log"
+Set parameter DisplayInterval to value 30
+Set parameter MIPGap to value 0.005
+Set parameter TimeLimit to value 600
+Gurobi Optimizer version 13.0.3 build v13.0.3rc0 (mac64[arm] - Darwin 24.5.0 24F74)
+
+CPU model: Apple M4
+Thread count: 10 physical cores, 10 logical processors, using up to 4 threads
+
+Non-default parameters:
+TimeLimit  600
+MIPGap  0.005
+DisplayInterval  30
+LogToConsole  0
+Threads  4
+
+Optimize a model with 1714 rows, 831 columns and 53861 nonzeros (Max)
+Model fingerprint: 0x32608381
+Model has 163 linear objective coefficients
+Variable types: 228 continuous, 603 integer (144 binary)
+Coefficient statistics:
+  Matrix range     [5e-01, 8e+02]
+  Objective range  [8e-03, 2e+02]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+05]
+
+User MIP start produced solution with objective -105704 (0.00s)
+User MIP start produced solution with objective -105704 (0.00s)
+Loaded user MIP start with objective -105704
+MIP start from previous solve did not produce a new incumbent solution
+
+Presolve removed 211 rows and 90 columns
+Presolve time: 0.01s
+Presolved: 1503 rows, 741 columns, 9712 nonzeros
+Found heuristic solution: objective -76924.34081
+Variable types: 123 continuous, 618 integer (144 binary)
+
+Root relaxation: objective 3.687317e+04, 556 iterations, 0.01 seconds (0.01 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 36873.1715    0   57 -76924.341 36873.1715   148%     -    0s
+H    0     0                    36860.733876 36873.1715  0.03%     -    0s
+
+Explored 1 nodes (556 simplex iterations) in 0.03 seconds (0.06 work units)
+Thread count was 4 (of 10 available processors)
+
+Solution count 3: 36860.7 -76924.3 -105704 
+
+Optimal solution found (tolerance 5.00e-03)
+Best objective 3.686073387559e+04, best bound 3.687317150436e+04, gap 0.0337%
+
+User-callback calls 370, time in user-callback 0.00 sec
+Set parameter OutputFlag to value 1
+Set parameter LogToConsole to value 0
+
+Gurobi 13.0.3 (mac64[arm]) logging started Wed Nov 18 21:56:32 2026
+
+Set parameter LogFile to value "outputs/futian_4hubs_gap005_gurobi/round_007.log"
+Set parameter DisplayInterval to value 30
+Set parameter MIPGap to value 0.005
+Set parameter TimeLimit to value 600
+Gurobi Optimizer version 13.0.3 build v13.0.3rc0 (mac64[arm] - Darwin 24.5.0 24F74)
+
+CPU model: Apple M4
+Thread count: 10 physical cores, 10 logical processors, using up to 4 threads
+
+Non-default parameters:
+TimeLimit  600
+MIPGap  0.005
+DisplayInterval  30
+LogToConsole  0
+Threads  4
+
+Optimize a model with 1714 rows, 831 columns and 53861 nonzeros (Max)
+Model fingerprint: 0x32608381
+Model has 163 linear objective coefficients
+Variable types: 228 continuous, 603 integer (144 binary)
+Coefficient statistics:
+  Matrix range     [5e-01, 8e+02]
+  Objective range  [8e-03, 2e+02]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+05]
+
+User MIP start produced solution with objective -105704 (0.00s)
+User MIP start produced solution with objective -105704 (0.00s)
+Loaded user MIP start with objective -105704
+MIP start from previous solve did not produce a new incumbent solution
+
+Presolve removed 211 rows and 90 columns
+Presolve time: 0.02s
+Presolved: 1503 rows, 741 columns, 9712 nonzeros
+Found heuristic solution: objective -76924.34081
+Variable types: 123 continuous, 618 integer (144 binary)
+
+Root relaxation: objective 3.687317e+04, 556 iterations, 0.01 seconds (0.01 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 36873.1715    0   57 -76924.341 36873.1715   148%     -    0s
+H    0     0                    36860.733876 36873.1715  0.03%     -    0s
+
+Explored 1 nodes (556 simplex iterations) in 0.04 seconds (0.06 work units)
+Thread count was 4 (of 10 available processors)
+
+Solution count 3: 36860.7 -76924.3 -105704 
+
+Optimal solution found (tolerance 5.00e-03)
+Best objective 3.686073387559e+04, best bound 3.687317150436e+04, gap 0.0337%
+
+User-callback calls 374, time in user-callback 0.00 sec
+Set parameter OutputFlag to value 1
+Set parameter LogToConsole to value 0

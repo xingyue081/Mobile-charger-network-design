@@ -1,0 +1,55 @@
+
+Gurobi 13.0.3 (mac64[arm]) logging started Sat Nov  7 15:56:13 2026
+
+Set parameter LogFile to value "/Users/xingyueyi/Desktop/CG_solver/numerical_exp/alg_scale/outputs/k20/cutting_plane_gurobi/round_010.log"
+Set parameter DisplayInterval to value 30
+Set parameter MIPGap to value 0.001
+Set parameter TimeLimit to value 600
+Gurobi Optimizer version 13.0.3 build v13.0.3rc0 (mac64[arm] - Darwin 24.5.0 24F74)
+
+CPU model: Apple M4
+Thread count: 10 physical cores, 10 logical processors, using up to 4 threads
+
+Non-default parameters:
+TimeLimit  600
+MIPGap  0.001
+DisplayInterval  30
+LogToConsole  0
+Threads  4
+
+Optimize a model with 3114 rows, 1844 columns and 44807 nonzeros (Max)
+Model fingerprint: 0x669ad8e7
+Model has 181 linear objective coefficients
+Variable types: 184 continuous, 1660 integer (420 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 4e+02]
+  Objective range  [8e-03, 5e+01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 7e+04]
+
+User MIP start produced solution with objective 25102.9 (0.00s)
+Loaded user MIP start with objective 25102.9
+
+Presolve added 0 rows and 14 columns
+Presolve removed 127 rows and 0 columns
+Presolve time: 0.03s
+Presolved: 2987 rows, 1858 columns, 33635 nonzeros
+Variable types: 124 continuous, 1734 integer (420 binary)
+
+Root relaxation: objective 4.975680e+04, 1156 iterations, 0.02 seconds (0.06 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 49756.8037    0   20 25102.9140 49756.8037  98.2%     -    0s
+H    0     0                    49749.247547 49756.8037  0.02%     -    0s
+
+Explored 1 nodes (1326 simplex iterations) in 0.06 seconds (0.15 work units)
+Thread count was 4 (of 10 available processors)
+
+Solution count 2: 49749.2 25102.9 
+
+Optimal solution found (tolerance 1.00e-03)
+Best objective 4.974924754746e+04, best bound 4.975680374857e+04, gap 0.0152%
+
+User-callback calls 284, time in user-callback 0.00 sec

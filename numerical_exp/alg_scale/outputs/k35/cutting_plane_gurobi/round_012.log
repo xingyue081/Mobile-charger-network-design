@@ -1,0 +1,54 @@
+
+Gurobi 13.0.3 (mac64[arm]) logging started Sat Nov  7 15:57:25 2026
+
+Set parameter LogFile to value "/Users/xingyueyi/Desktop/CG_solver/numerical_exp/alg_scale/outputs/k35/cutting_plane_gurobi/round_012.log"
+Set parameter DisplayInterval to value 30
+Set parameter MIPGap to value 0.001
+Set parameter TimeLimit to value 600
+Gurobi Optimizer version 13.0.3 build v13.0.3rc0 (mac64[arm] - Darwin 24.5.0 24F74)
+
+CPU model: Apple M4
+Thread count: 10 physical cores, 10 logical processors, using up to 4 threads
+
+Non-default parameters:
+TimeLimit  600
+MIPGap  0.001
+DisplayInterval  30
+LogToConsole  0
+Threads  4
+
+Optimize a model with 6778 rows, 5233 columns and 104591 nonzeros (Max)
+Model fingerprint: 0x0c980a43
+Model has 225 linear objective coefficients
+Variable types: 228 continuous, 5005 integer (1260 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 4e+02]
+  Objective range  [8e-03, 5e+01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+05]
+
+User MIP start produced solution with objective 18770.4 (0.01s)
+Loaded user MIP start with objective 18770.4
+
+Presolve removed 161 rows and 6 columns
+Presolve time: 0.08s
+Presolved: 6617 rows, 5227 columns, 90013 nonzeros
+Variable types: 123 continuous, 5104 integer (1260 binary)
+
+Root relaxation: objective 7.095441e+04, 3452 iterations, 0.12 seconds (0.37 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 70954.4093    0   20 18770.4120 70954.4093   278%     -    0s
+H    0     0                    70952.321283 70954.4093  0.00%     -    0s
+
+Explored 1 nodes (3623 simplex iterations) in 0.27 seconds (0.66 work units)
+Thread count was 4 (of 10 available processors)
+
+Solution count 2: 70952.3 18770.4 
+
+Optimal solution found (tolerance 1.00e-03)
+Best objective 7.095232128276e+04, best bound 7.095440934109e+04, gap 0.0029%
+
+User-callback calls 436, time in user-callback 0.00 sec

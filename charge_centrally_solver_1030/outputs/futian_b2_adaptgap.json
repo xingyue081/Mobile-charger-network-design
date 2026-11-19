@@ -1,0 +1,23 @@
+{
+  "objective": 66370.72231013756,
+  "bound": 66381.69036056011,
+  "mip_gap": 0.00016525434771227576,
+  "iterations": 69,
+  "stop_reason": "主问题未证明到间隙，分离只核算当前方案，不加割",
+  "status_name": "TIME_LIMIT",
+  "fixed_chargers": 333,
+  "mobile_chargers": 12,
+  "hub_count": 1,
+  "hub_indexes": [
+    10
+  ],
+  "dataset": "futian",
+  "shortage_penalty": 2.0,
+  "round_log": "/Users/xingyueyi/Desktop/CG_solver/charge_centrally_solver_1030/outputs/futian_b2_adaptgap_rounds.jsonl",
+  "gurobi_log_dir": "/Users/xingyueyi/Desktop/CG_solver/charge_centrally_solver_1030/outputs/futian_b2_adaptgap_gurobi",
+  "reformulation": "transport and inflow lifted; unproven master does not add cuts; previous integer solution is the next MIP start; adaptive master gap 1e-3 until no new cut, then 0.0001",
+  "separation_seconds": null,
+  "elapsed_seconds": null,
+  "node_count": null,
+  "num_nzs": null
+}

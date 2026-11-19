@@ -1,0 +1,68 @@
+{
+  "label": "guangming",
+  "taz_ids": [
+    631,
+    632,
+    633,
+    637,
+    638,
+    643,
+    644,
+    655,
+    656,
+    659,
+    1060
+  ],
+  "r": 4.691045417607958,
+  "r_squared": 22.005907110060623,
+  "epsilon_l": {
+    "workday": 225.89138634475162,
+    "weekend": 238.63808176055642,
+    "holiday": 194.07916801344263
+  },
+  "q_l": {
+    "workday": 0.680327868852459,
+    "weekend": 0.22950819672131148,
+    "holiday": 0.09016393442622951
+  },
+  "support_counts": {
+    "workday": 80,
+    "weekend": 28,
+    "holiday": 10
+  },
+  "n_bar_rule": "2 * existing fixed_charger_count",
+  "radius_rule": "Q_0.90 of bootstrap Q_0.95 Mahalanobis squared distances",
+  "bootstrap_replications": 1000,
+  "bootstrap_seed": 20260907,
+  "epsilon_rule": "median within-date-type zone standard deviation, same rule as zone20",
+  "condition_number": 112.31685046989557,
+  "in_support_count": 118,
+  "training_days": 122,
+  "train_start_inclusive": "2022-09-01",
+  "train_end_exclusive": "2023-01-01",
+  "demand_field": "daily_volume",
+  "demand_dimension": 11,
+  "zone_rule": "representative point inside Guangming after WGS84 to GCJ-02, and present in both the daily demand file and the fixed charger table",
+  "excluded_demand_without_chargers": [],
+  "excluded_chargers_without_demand": [],
+  "inside_guangming_without_model_tables": [
+    621,
+    622,
+    623,
+    625,
+    626,
+    627,
+    629,
+    630,
+    634,
+    635,
+    636,
+    639,
+    640,
+    641,
+    642,
+    654,
+    657,
+    658
+  ]
+}

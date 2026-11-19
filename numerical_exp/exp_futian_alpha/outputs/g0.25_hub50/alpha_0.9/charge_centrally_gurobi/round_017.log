@@ -1,0 +1,55 @@
+
+Gurobi 13.0.3 (mac64[arm]) logging started Tue Nov  3 09:23:22 2026
+
+Set parameter LogFile to value "/Users/xingyueyi/Desktop/CG_solver/numerical_exp/exp_futian_alpha/outputs/g0.25_hub50/alpha_0.9/charge_centrally_gurobi/round_017.log"
+Set parameter DisplayInterval to value 30
+Set parameter MIPGap to value 0.001
+Set parameter TimeLimit to value 600
+Gurobi Optimizer version 13.0.3 build v13.0.3rc0 (mac64[arm] - Darwin 24.5.0 24F74)
+
+CPU model: Apple M4
+Thread count: 10 physical cores, 10 logical processors, using up to 4 threads
+
+Non-default parameters:
+TimeLimit  600
+MIPGap  0.001
+DisplayInterval  30
+LogToConsole  0
+Threads  4
+
+Optimize a model with 7378 rows, 5233 columns and 129295 nonzeros (Max)
+Model fingerprint: 0x6dbee11e
+Model has 225 linear objective coefficients
+Variable types: 228 continuous, 5005 integer (1260 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 4e+02]
+  Objective range  [8e-03, 5e+01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+05]
+
+User MIP start produced solution with objective 42822.9 (0.01s)
+Loaded user MIP start with objective 42822.9
+
+Presolve added 0 rows and 3 columns
+Presolve removed 152 rows and 0 columns
+Presolve time: 0.11s
+Presolved: 7226 rows, 5236 columns, 117956 nonzeros
+Variable types: 123 continuous, 5113 integer (1260 binary)
+
+Root relaxation: objective 7.070255e+04, 1633 iterations, 0.10 seconds (0.20 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 70702.5453    0   23 42822.9097 70702.5453  65.1%     -    0s
+H    0     0                    70667.428345 70702.5453  0.05%     -    0s
+
+Explored 1 nodes (1767 simplex iterations) in 0.39 seconds (0.58 work units)
+Thread count was 4 (of 10 available processors)
+
+Solution count 2: 70667.4 42822.9 
+
+Optimal solution found (tolerance 1.00e-03)
+Best objective 7.066742834482e+04, best bound 7.070254530092e+04, gap 0.0497%
+
+User-callback calls 342, time in user-callback 0.00 sec

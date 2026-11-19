@@ -1,0 +1,63 @@
+{
+  "label": "pingshan",
+  "taz_ids": [
+    848,
+    881,
+    882,
+    883,
+    887,
+    888,
+    890,
+    891,
+    893,
+    895,
+    897,
+    900,
+    901,
+    902,
+    903,
+    904
+  ],
+  "r": 5.478064143084673,
+  "r_squared": 30.009186755750008,
+  "epsilon_l": {
+    "workday": 213.77470240668688,
+    "weekend": 199.43834521937444,
+    "holiday": 196.18722771492398
+  },
+  "q_l": {
+    "workday": 0.680327868852459,
+    "weekend": 0.22950819672131148,
+    "holiday": 0.09016393442622951
+  },
+  "support_counts": {
+    "workday": 82,
+    "weekend": 27,
+    "holiday": 8
+  },
+  "n_bar_rule": "2 * existing fixed_charger_count",
+  "radius_rule": "Q_0.90 of bootstrap Q_0.95 Mahalanobis squared distances",
+  "bootstrap_replications": 1000,
+  "bootstrap_seed": 20260907,
+  "epsilon_rule": "median within-date-type zone standard deviation, same rule as zone20",
+  "condition_number": 1016.953580895669,
+  "in_support_count": 117,
+  "training_days": 122,
+  "train_start_inclusive": "2022-09-01",
+  "train_end_exclusive": "2023-01-01",
+  "demand_field": "daily_volume",
+  "demand_dimension": 16,
+  "zone_rule": "representative point inside Pingshan after WGS84 to GCJ-02, and present in both the daily demand file and the fixed charger table",
+  "excluded_demand_without_chargers": [],
+  "excluded_chargers_without_demand": [],
+  "inside_pingshan_without_model_tables": [
+    884,
+    885,
+    886,
+    889,
+    894,
+    896,
+    898,
+    899
+  ]
+}

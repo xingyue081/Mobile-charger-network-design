@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "enumerated_plans": 716,
+  "brute_objective": 261.9469513759945,
+  "gurobi_objective": 261.9469513759945,
+  "gurobi_rescored": 261.9469513759945,
+  "gurobi_minus_brute": 0.0,
+  "rescore_minus_brute": 0.0,
+  "status_name": "OPTIMAL"
+}

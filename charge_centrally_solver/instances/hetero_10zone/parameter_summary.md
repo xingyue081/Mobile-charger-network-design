@@ -1,0 +1,1 @@
+/Users/xingyueyi/Documents/ChatGPT/mobile charger_new/benchmark_validation/hetero_10zone_kappa180_cm38/parameter_summary.md

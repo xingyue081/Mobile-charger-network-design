@@ -1,0 +1,98 @@
+[
+  {
+    "g": 0.2,
+    "hub": 55.0,
+    "gamma": 0.001,
+    "endpoints": {
+      "0": {
+        "sign_local_minus_central": 0,
+        "local_objective": 68357.378670302,
+        "local_converged": true,
+        "central_objective": 68357.37867751958,
+        "central_converged": true,
+        "difference": -7.217575330287218e-06
+      },
+      "1": {
+        "sign_local_minus_central": 1,
+        "local_objective": 68019.97656143997,
+        "local_converged": true,
+        "central_objective": 68011.29746988894,
+        "central_converged": true,
+        "difference": 8.679091551020974
+      }
+    },
+    "action": "increase_g"
+  },
+  {
+    "g": 0.30000000000000004,
+    "hub": 55.0,
+    "gamma": 0.001,
+    "endpoints": {
+      "0": {
+        "sign_local_minus_central": 0,
+        "local_objective": 68357.37867030197,
+        "local_converged": true,
+        "central_objective": 68357.37867751958,
+        "central_converged": true,
+        "difference": -7.217604434117675e-06
+      },
+      "1": {
+        "sign_local_minus_central": -1,
+        "local_objective": 67999.96103912138,
+        "local_converged": true,
+        "central_objective": 68011.29746988894,
+        "central_converged": true,
+        "difference": -11.336430767565616
+      }
+    },
+    "action": "decrease_g"
+  },
+  {
+    "g": 0.15,
+    "hub": 55.0,
+    "gamma": 0.001,
+    "endpoints": {
+      "0": {
+        "sign_local_minus_central": 0,
+        "local_objective": 68357.37867030197,
+        "local_converged": true,
+        "central_objective": 68357.37867751958,
+        "central_converged": true,
+        "difference": -7.217604434117675e-06
+      },
+      "1": {
+        "sign_local_minus_central": 1,
+        "local_objective": 68031.72518971268,
+        "local_converged": true,
+        "central_objective": 68011.29746988894,
+        "central_converged": true,
+        "difference": 20.427719823739608
+      }
+    },
+    "action": "increase_g"
+  },
+  {
+    "g": 0.25,
+    "hub": 55.0,
+    "gamma": 0.001,
+    "endpoints": {
+      "0": {
+        "sign_local_minus_central": 0,
+        "local_objective": 68357.37867030197,
+        "local_converged": true,
+        "central_objective": 68357.37867751958,
+        "central_converged": true,
+        "difference": -7.217604434117675e-06
+      },
+      "1": {
+        "sign_local_minus_central": 0,
+        "local_objective": 68008.8603437925,
+        "local_converged": true,
+        "central_objective": 68011.29746988894,
+        "central_converged": true,
+        "difference": -2.437126096439897
+      }
+    },
+    "action": "inconclusive"
+  }
+]

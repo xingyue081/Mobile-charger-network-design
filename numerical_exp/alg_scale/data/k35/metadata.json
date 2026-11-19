@@ -1,0 +1,70 @@
+{
+  "k": 35,
+  "taz_ids": [
+    202,
+    204,
+    205,
+    206,
+    208,
+    212,
+    213,
+    214,
+    215,
+    216,
+    217,
+    223,
+    224,
+    225,
+    226,
+    227,
+    235,
+    1061,
+    1062,
+    1099,
+    1100,
+    1102,
+    1104,
+    1106,
+    1107,
+    1109,
+    1110,
+    1111,
+    1112,
+    1113,
+    1114,
+    1115,
+    1168,
+    1172,
+    1173
+  ],
+  "min_eigenvalue": 1648.3545400603382,
+  "condition_number": 3118.261045985455,
+  "r": 7.93869174015301,
+  "r_squared": 63.022826545173636,
+  "epsilon_l": {
+    "workday": 284.26873062889507,
+    "weekend": 281.75413436631277,
+    "holiday": 204.32489470559034
+  },
+  "q_l": {
+    "workday": 0.680327868852459,
+    "weekend": 0.22950819672131148,
+    "holiday": 0.09016393442622951
+  },
+  "sample_counts": {
+    "workday": 82,
+    "weekend": 28,
+    "holiday": 10
+  },
+  "local_g_not_used_by_central": 0.25,
+  "parameters": {
+    "rho": 2.0,
+    "shortage_penalty": 0.0,
+    "fixed_capacity": 190.0,
+    "mobile_capacity": 160.0,
+    "fixed_unit_cost": 41.0,
+    "mobile_unit_cost": 45.0,
+    "transport_cost_per_distance": 0.001,
+    "hub_open_cost": 50.0
+  }
+}

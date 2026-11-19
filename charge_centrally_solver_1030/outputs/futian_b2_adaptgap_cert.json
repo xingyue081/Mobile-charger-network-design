@@ -1,0 +1,17 @@
+{
+  "objective": 66370.72237702346,
+  "bound": 66377.3406699921,
+  "mip_gap": 9.971705492448568e-05,
+  "iterations": 1,
+  "stop_reason": "OPTIMAL",
+  "status_name": "OPTIMAL",
+  "fixed_chargers": 333,
+  "mobile_chargers": 12,
+  "hub_count": 1,
+  "hub_indexes": [
+    10
+  ],
+  "dataset": "futian",
+  "shortage_penalty": 2.0,
+  "new_cuts_after_proof": 0
+}

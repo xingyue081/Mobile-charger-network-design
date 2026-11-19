@@ -1,0 +1,10 @@
+{
+  "rho": 2.0,
+  "shortage_penalty": 0.0,
+  "fixed_capacity": 190.0,
+  "mobile_capacity": 160.0,
+  "fixed_unit_cost": 120.0,
+  "mobile_unit_cost": 55.0,
+  "transport_cost_per_distance": 0.001,
+  "hub_open_cost": 90.0
+}

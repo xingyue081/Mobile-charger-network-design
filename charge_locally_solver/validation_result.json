@@ -1,0 +1,499 @@
+{
+  "gurobi": [
+    12,
+    0,
+    3
+  ],
+  "passed": true,
+  "enumeration_objective": 22.11000000003564,
+  "enumeration_decisions": [
+    {
+      "n": [
+        1,
+        1
+      ],
+      "m": 2,
+      "z": {
+        "workday": [
+          1,
+          1
+        ],
+        "weekend": [
+          1,
+          1
+        ]
+      }
+    }
+  ],
+  "modes": [
+    {
+      "mode": "tight",
+      "passed": true,
+      "objective_gap": 0.0,
+      "constraint_generation": {
+        "status": "CONVERGED",
+        "converged": true,
+        "reason": "ALL_SEPARATIONS_WITHIN_TOLERANCE",
+        "iterations": 5,
+        "objective": 22.11000000003564,
+        "bound": 22.11000000003564,
+        "elapsed_seconds": 0.0241976669999997,
+        "decision": {
+          "n": [
+            1.0,
+            1.0
+          ],
+          "m": 2.0,
+          "z": {
+            "workday": [
+              1.0,
+              1.0
+            ],
+            "weekend": [
+              1.0,
+              1.0
+            ]
+          }
+        },
+        "active_patterns": {
+          "workday:0": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              2,
+              1
+            ],
+            [
+              2,
+              2
+            ]
+          ],
+          "workday:1": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              2,
+              1
+            ],
+            [
+              2,
+              2
+            ]
+          ],
+          "weekend:0": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              2,
+              1
+            ],
+            [
+              2,
+              2
+            ]
+          ]
+        },
+        "pattern_count": 13,
+        "acceleration": "fixed/mobile capacity lifted; unproven master does not add cuts; previous integer solution is the next MIP start",
+        "history": [
+          {
+            "iteration": 1,
+            "master_status": "OPTIMAL",
+            "objective": 34.360000004172335,
+            "bound": 34.360000004172335,
+            "master_mip_gap_target": 0.0,
+            "elapsed_seconds": 0.010797499999999793,
+            "added": [
+              [
+                "workday",
+                0,
+                [
+                  2,
+                  2
+                ]
+              ],
+              [
+                "workday",
+                1,
+                [
+                  2,
+                  2
+                ]
+              ],
+              [
+                "weekend",
+                0,
+                [
+                  2,
+                  2
+                ]
+              ]
+            ],
+            "accounted_violations_not_written": 0
+          },
+          {
+            "iteration": 2,
+            "master_status": "OPTIMAL",
+            "objective": 25.920000000000144,
+            "bound": 25.92000000000015,
+            "master_mip_gap_target": 0.0,
+            "elapsed_seconds": 0.014072000000000084,
+            "added": [
+              [
+                "workday",
+                0,
+                [
+                  1,
+                  2
+                ]
+              ],
+              [
+                "workday",
+                1,
+                [
+                  1,
+                  2
+                ]
+              ],
+              [
+                "weekend",
+                0,
+                [
+                  1,
+                  2
+                ]
+              ]
+            ],
+            "accounted_violations_not_written": 0
+          },
+          {
+            "iteration": 3,
+            "master_status": "OPTIMAL",
+            "objective": 25.920000000000144,
+            "bound": 25.920000000000144,
+            "master_mip_gap_target": 0.0,
+            "elapsed_seconds": 0.016195957999999955,
+            "added": [
+              [
+                "workday",
+                0,
+                [
+                  2,
+                  1
+                ]
+              ],
+              [
+                "workday",
+                1,
+                [
+                  2,
+                  1
+                ]
+              ],
+              [
+                "weekend",
+                0,
+                [
+                  2,
+                  1
+                ]
+              ]
+            ],
+            "accounted_violations_not_written": 0
+          },
+          {
+            "iteration": 4,
+            "master_status": "OPTIMAL",
+            "objective": 22.470000000035835,
+            "bound": 22.470000000035835,
+            "master_mip_gap_target": 0.0,
+            "elapsed_seconds": 0.02118333299999975,
+            "added": [
+              [
+                "workday",
+                1,
+                [
+                  1,
+                  1
+                ]
+              ]
+            ],
+            "accounted_violations_not_written": 0
+          },
+          {
+            "iteration": 5,
+            "master_status": "OPTIMAL",
+            "objective": 22.11000000003564,
+            "bound": 22.11000000003564,
+            "master_mip_gap_target": 0.0,
+            "elapsed_seconds": 0.022497291999999725,
+            "added": [],
+            "accounted_violations_not_written": 0
+          }
+        ]
+      }
+    },
+    {
+      "mode": "adaptive",
+      "passed": true,
+      "objective_gap": 0.0,
+      "constraint_generation": {
+        "status": "CONVERGED",
+        "converged": true,
+        "reason": "ALL_SEPARATIONS_WITHIN_TOLERANCE",
+        "iterations": 6,
+        "objective": 22.11000000003564,
+        "bound": 22.11000000003564,
+        "elapsed_seconds": 0.015630541999999803,
+        "decision": {
+          "n": [
+            1.0,
+            1.0
+          ],
+          "m": 2.0,
+          "z": {
+            "workday": [
+              1.0,
+              1.0
+            ],
+            "weekend": [
+              1.0,
+              1.0
+            ]
+          }
+        },
+        "active_patterns": {
+          "workday:0": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              2,
+              1
+            ],
+            [
+              2,
+              2
+            ]
+          ],
+          "workday:1": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              2,
+              1
+            ],
+            [
+              2,
+              2
+            ]
+          ],
+          "weekend:0": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              2,
+              1
+            ],
+            [
+              2,
+              2
+            ]
+          ]
+        },
+        "pattern_count": 13,
+        "acceleration": "fixed/mobile capacity lifted; unproven master does not add cuts; previous integer solution is the next MIP start; adaptive master gap 1e-3 until no new cut, then 0.0",
+        "history": [
+          {
+            "iteration": 1,
+            "master_status": "OPTIMAL",
+            "objective": 34.360000004172335,
+            "bound": 34.360000004172335,
+            "master_mip_gap_target": 0.001,
+            "elapsed_seconds": 0.0033254590000000306,
+            "added": [
+              [
+                "workday",
+                0,
+                [
+                  2,
+                  2
+                ]
+              ],
+              [
+                "workday",
+                1,
+                [
+                  2,
+                  2
+                ]
+              ],
+              [
+                "weekend",
+                0,
+                [
+                  2,
+                  2
+                ]
+              ]
+            ],
+            "accounted_violations_not_written": 0
+          },
+          {
+            "iteration": 2,
+            "master_status": "OPTIMAL",
+            "objective": 25.920000000000144,
+            "bound": 25.92000000000015,
+            "master_mip_gap_target": 0.001,
+            "elapsed_seconds": 0.006123791999999906,
+            "added": [
+              [
+                "workday",
+                0,
+                [
+                  1,
+                  2
+                ]
+              ],
+              [
+                "workday",
+                1,
+                [
+                  1,
+                  2
+                ]
+              ],
+              [
+                "weekend",
+                0,
+                [
+                  1,
+                  2
+                ]
+              ]
+            ],
+            "accounted_violations_not_written": 0
+          },
+          {
+            "iteration": 3,
+            "master_status": "OPTIMAL",
+            "objective": 25.920000000000144,
+            "bound": 25.920000000000144,
+            "master_mip_gap_target": 0.001,
+            "elapsed_seconds": 0.00822008399999996,
+            "added": [
+              [
+                "workday",
+                0,
+                [
+                  2,
+                  1
+                ]
+              ],
+              [
+                "workday",
+                1,
+                [
+                  2,
+                  1
+                ]
+              ],
+              [
+                "weekend",
+                0,
+                [
+                  2,
+                  1
+                ]
+              ]
+            ],
+            "accounted_violations_not_written": 0
+          },
+          {
+            "iteration": 4,
+            "master_status": "OPTIMAL",
+            "objective": 22.470000000035835,
+            "bound": 22.470000000035835,
+            "master_mip_gap_target": 0.001,
+            "elapsed_seconds": 0.010867291999999917,
+            "added": [
+              [
+                "workday",
+                1,
+                [
+                  1,
+                  1
+                ]
+              ]
+            ],
+            "accounted_violations_not_written": 0
+          },
+          {
+            "iteration": 5,
+            "master_status": "OPTIMAL",
+            "objective": 22.11000000003564,
+            "bound": 22.11000000003564,
+            "master_mip_gap_target": 0.001,
+            "elapsed_seconds": 0.011785291999999892,
+            "added": [],
+            "accounted_violations_not_written": 0
+          },
+          {
+            "iteration": 6,
+            "master_status": "OPTIMAL",
+            "objective": 22.11000000003564,
+            "bound": 22.11000000003564,
+            "master_mip_gap_target": 0.0,
+            "elapsed_seconds": 0.014192624999999737,
+            "added": [],
+            "accounted_violations_not_written": 0
+          }
+        ]
+      }
+    }
+  ],
+  "scope": "合成 2-zone、2 个日期类型；核对容量提成、热启动、未证明不加割、以及 adaptive_gap 与暴力枚举一致。不是深圳数据。"
+}

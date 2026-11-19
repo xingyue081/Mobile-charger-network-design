@@ -1,0 +1,84 @@
+
+Gurobi 13.0.3 (mac64[arm]) logging started Mon Nov  9 22:13:13 2026
+
+Set parameter LogFile to value "/Users/xingyueyi/Desktop/CG_solver/numerical_exp/exp_b/b0.5/charge_centrally_gurobi/round_034.log"
+Set parameter DisplayInterval to value 30
+Set parameter MIPGap to value 0.001
+Set parameter TimeLimit to value 600
+Gurobi Optimizer version 13.0.3 build v13.0.3rc0 (mac64[arm] - Darwin 24.5.0 24F74)
+
+CPU model: Apple M4
+Thread count: 10 physical cores, 10 logical processors, using up to 4 threads
+
+Non-default parameters:
+TimeLimit  600
+MIPGap  0.001
+DisplayInterval  30
+LogToConsole  0
+Threads  4
+
+Optimize a model with 9416 rows, 5233 columns and 214695 nonzeros (Max)
+Model fingerprint: 0xb09fe1d3
+Model has 225 linear objective coefficients
+Variable types: 228 continuous, 5005 integer (1260 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 5e+02]
+  Objective range  [8e-03, 5e+01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+05]
+
+User MIP start produced solution with objective 64795.4 (0.03s)
+User MIP start produced solution with objective 64795.4 (0.03s)
+Loaded user MIP start with objective 64795.4
+
+Presolve added 0 rows and 50 columns
+Presolve removed 105 rows and 0 columns
+Presolve time: 0.34s
+Presolved: 9311 rows, 5283 columns, 109214 nonzeros
+Variable types: 123 continuous, 5160 integer (1260 binary)
+
+Root relaxation: objective 6.875309e+04, 4873 iterations, 0.63 seconds (0.87 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 68753.0883    0  159 64795.3753 68753.0883  6.11%     -    1s
+H    0     0                    67877.929915 68753.0883  1.29%     -    1s
+H    0     0                    68187.108189 68753.0883  0.83%     -    1s
+H    0     0                    68320.202870 68753.0883  0.63%     -    1s
+H    0     0                    68542.088414 68753.0883  0.31%     -    1s
+H    0     0                    68603.421399 68753.0883  0.22%     -    2s
+H    0     0                    68608.743566 68753.0883  0.21%     -    2s
+H    0     0                    68628.358015 68753.0883  0.18%     -    2s
+H    0     0                    68629.216406 68753.0883  0.18%     -    2s
+H    0     0                    68638.263629 68753.0883  0.17%     -    5s
+     0     0 68748.5062    0  167 68638.2636 68748.5062  0.16%     -    5s
+     0     0 68732.4717    0  167 68638.2636 68732.4717  0.14%     -    9s
+     0     0 68732.4356    0  170 68638.2636 68732.4356  0.14%     -   10s
+     0     0 68732.4356    0  170 68638.2636 68732.4356  0.14%     -   10s
+     0     0 68732.3232    0  181 68638.2636 68732.3232  0.14%     -   10s
+     0     0 68732.3115    0  179 68638.2636 68732.3115  0.14%     -   10s
+     0     0 68732.2991    0  179 68638.2636 68732.2991  0.14%     -   10s
+     0     0 68732.2991    0  169 68638.2636 68732.2991  0.14%     -   10s
+     0     0 68732.2856    0  178 68638.2636 68732.2856  0.14%     -   11s
+     0     0 68732.2851    0  169 68638.2636 68732.2851  0.14%     -   11s
+     0     0 68732.2734    0  178 68638.2636 68732.2734  0.14%     -   11s
+     0     0 68732.2390    0  178 68638.2636 68732.2390  0.14%     -   11s
+     0     0 68732.2390    0  178 68638.2636 68732.2390  0.14%     -   11s
+     0     0 68732.2390    0  178 68638.2636 68732.2390  0.14%     -   11s
+     0     0 68732.2390    0  178 68638.2636 68732.2390  0.14%     -   11s
+     0     2 68732.2390    0  178 68638.2636 68732.2390  0.14%     -   12s
+*  582   410             147    68664.188048 68732.2390  0.10%  30.1   14s
+
+Cutting planes:
+  MIR: 87
+
+Explored 616 nodes (23239 simplex iterations) in 14.05 seconds (13.90 work units)
+Thread count was 4 (of 10 available processors)
+
+Solution count 10: 68664.2 68638.3 68629.2 ... 64795.4
+
+Optimal solution found (tolerance 1.00e-03)
+Best objective 6.866418804798e+04, best bound 6.873223896132e+04, gap 0.0991%
+
+User-callback calls 6840, time in user-callback 0.04 sec

@@ -1,0 +1,1 @@
+/Users/xingyueyi/Documents/ChatGPT/mobile charger_new/benchmark_validation/ten_zone_exact_benchmark_20260919T021734/solver_inputs.pkl

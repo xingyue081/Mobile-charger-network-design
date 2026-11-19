@@ -1,0 +1,53 @@
+
+Gurobi 13.0.1 (mac64[arm]) logging started Fri Oct 30 18:55:09 2026
+
+Set parameter LogFile to value "outputs/futian_b2_gurobi/round_014.log"
+Set parameter DisplayInterval to value 30
+Set parameter TimeLimit to value 600
+Gurobi Optimizer version 13.0.1 build v13.0.1rc0 (mac64[arm] - Darwin 24.5.0 24F74)
+
+CPU model: Apple M4
+Thread count: 10 physical cores, 10 logical processors, using up to 10 threads
+
+Non-default parameters:
+TimeLimit  600
+DisplayInterval  30
+LogToConsole  0
+
+Optimize a model with 7018 rows, 5233 columns and 131811 nonzeros (Max)
+Model fingerprint: 0x095fdd3e
+Model has 225 linear objective coefficients
+Variable types: 228 continuous, 5005 integer (1260 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 8e+02]
+  Objective range  [8e-03, 6e+01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+05]
+
+User MIP start produced solution with objective -47433.3 (0.01s)
+Loaded user MIP start with objective -47433.3
+
+Presolve removed 147 rows and 4 columns
+Presolve time: 0.09s
+Presolved: 6871 rows, 5229 columns, 36316 nonzeros
+Variable types: 123 continuous, 5106 integer (1260 binary)
+
+Root relaxation: objective 6.879476e+04, 2708 iterations, 0.06 seconds (0.18 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 68794.7621    0   28 -47433.263 68794.7621   245%     -    0s
+H    0     0                    68100.263028 68794.7621  1.02%     -    0s
+H    0     0                    68111.215439 68794.7621  1.00%     -    0s
+H    0     0                    68793.722979 68794.7621  0.00%     -    0s
+
+Explored 1 nodes (3022 simplex iterations) in 0.19 seconds (0.44 work units)
+Thread count was 10 (of 10 available processors)
+
+Solution count 4: 68793.7 68111.2 68100.3 -47433.3 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 6.879372297880e+04, best bound 6.879476209968e+04, gap 0.0015%
+
+User-callback calls 396, time in user-callback 0.00 sec

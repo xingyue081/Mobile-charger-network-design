@@ -1,0 +1,57 @@
+
+Gurobi 13.0.3 (mac64[arm]) logging started Tue Nov 17 14:01:19 2026
+
+Set parameter LogFile to value "outputs/guangming_rho1.5_cf160_cm135_hub80_gurobi/round_002.log"
+Set parameter DisplayInterval to value 30
+Set parameter MIPGap to value 0.02
+Set parameter TimeLimit to value 1.7936256416582968e+04
+Gurobi Optimizer version 13.0.3 build v13.0.3rc0 (mac64[arm] - Darwin 24.5.0 24F74)
+
+CPU model: Apple M4
+Thread count: 10 physical cores, 10 logical processors, using up to 4 threads
+
+Non-default parameters:
+TimeLimit  1.7936256416582968e+04
+MIPGap  0.02
+DisplayInterval  30
+LogToConsole  0
+Threads  4
+LazyConstraints  1
+
+Optimize a model with 823 rows, 671 columns and 5331 nonzeros (Max)
+Model fingerprint: 0x7ab61eff
+Model has 151 linear objective coefficients
+Variable types: 154 continuous, 517 integer (132 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 3e+02]
+  Objective range  [8e-03, 2e+02]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 3e+04]
+
+Loaded user MIP start with objective 8722.37
+MIP start from previous solve did not produce a new incumbent solution
+Processed MIP start in 1.37 seconds (0.00 work units)
+
+Presolve removed 40 rows and 29 columns
+Presolve time: 0.00s
+Presolved: 783 rows, 642 columns, 4106 nonzeros
+Variable types: 121 continuous, 521 integer (132 binary)
+
+Root relaxation: interrupted, 196 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0          -    0      8722.36953 8889.30008  1.91%     -    1s
+
+Explored 1 nodes (196 simplex iterations) in 1.38 seconds (0.01 work units)
+Thread count was 4 (of 10 available processors)
+
+Solution count 1: 8722.37 
+
+Optimal solution found (tolerance 2.00e-02)
+Best objective 8.722369528028e+03, best bound 8.889300076553e+03, gap 1.9138%
+
+User-callback calls 228, time in user-callback 1.37 sec
+Set parameter OutputFlag to value 1
+Set parameter LogToConsole to value 0

@@ -1,0 +1,63 @@
+{
+  "alpha": 0.3,
+  "source": "/Users/xingyueyi/Desktop/CG_solver/futian/futian_parameters.npz",
+  "common_shift_kwh": {
+    "workday": 53.259193403987624,
+    "weekend": -109.20606124868641,
+    "holiday": -123.8857579607047
+  },
+  "original_counts": {
+    "workday": 82,
+    "weekend": 28,
+    "holiday": 10
+  },
+  "kept_counts": {
+    "workday": 82,
+    "weekend": 28,
+    "holiday": 10
+  },
+  "dropped_days": [],
+  "clipped_negative_demand": {
+    "workday": {
+      "entries": 3,
+      "sum_kwh": -16.091443739171414,
+      "min_kwh": -13.108736902461658
+    },
+    "weekend": {
+      "entries": 29,
+      "sum_kwh": -1266.9532740477212,
+      "min_kwh": -103.10045488927442
+    },
+    "holiday": {
+      "entries": 10,
+      "sum_kwh": -351.29938381938956,
+      "min_kwh": -91.93290925435389
+    }
+  },
+  "sample_shift_max_abs": {
+    "workday": 449.442070235795,
+    "weekend": 807.3656483569266,
+    "holiday": 1336.1321523251809
+  },
+  "margins_before_dropping_days": {
+    "max_abs_date_type_total_error": 1.4551915228366852e-11,
+    "max_abs_zone_mean_error": 1.8189894035458565e-12
+  },
+  "margins_after_dropping_days": {
+    "max_abs_date_type_total_error": 45.24833121597476,
+    "max_abs_zone_mean_error": 7.005427908694742
+  },
+  "unchanged": [
+    "mu",
+    "Sigma",
+    "Sigma_inv",
+    "r",
+    "r_squared",
+    "epsilon_l",
+    "q_l",
+    "distance",
+    "n_bar",
+    "taz_ids",
+    "business.json"
+  ]
+}
